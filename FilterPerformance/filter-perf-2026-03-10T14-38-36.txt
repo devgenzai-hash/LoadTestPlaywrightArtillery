@@ -1,0 +1,142 @@
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                   FILTER PERFORMANCE TEST REPORT                                   ║
+║                                 Saved Filter: "PerformanceTesting"                                 ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  Test Name   : Filter Performance — Saved Filter "PerformanceTesting"                              ║
+║  Timestamp   : 2026-03-10T14:38:36.175Z                                                            ║
+║  Browser     : chromium                                                                            ║
+║  Duration    : 70.2s                                                                               ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── LOGIN → HOME PAGE ──                                                                           ║
+║  🟡 Login to Home Page   :  14876ms  NEEDS IMPROVEMENT                                             ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── INITIAL HOME PAGE LOAD (Before Filter) ──                                                      ║
+║  🟡 Page Load Time     :   2615ms  GOOD                                                            ║
+║    API calls during load :      0                                                                  ║
+║                                                                                                    ║
+║  ── INITIAL KPI CARD TIMINGS ──                                                                    ║
+║  KPI NAME                        RENDER TIME    DATA VALUE  RATING                                 ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🟢 Not Started Shipments              12ms         1,053  GOOD                                    ║
+║  🟢 Arrived Shipments                  28ms         1,542  GOOD                                    ║
+║  🟢 In Transit Shipments               41ms           527  GOOD                                    ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── SAVED FILTER APPLICATION: "PerformanceTesting" ──                                              ║
+║                                                                                                    ║
+║  🟡 "Show filter" → sidebar open  :   1147ms                                                       ║
+║  🟡 Settings icon → panel open    :   2038ms                                                       ║
+║  🟡 Filter click → all data loaded :   7244ms  NEEDS IMPROVEMENT                                   ║
+║    API calls during filter      :      4                                                           ║
+║    Slowest API                  :   3137ms                                                         ║
+║                                                                                                    ║
+║  ── KPI CARDS AFTER FILTER ──                                                                      ║
+║  KPI NAME                        RENDER TIME    DATA VALUE  RATING                                 ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🔴 Not Started Shipments            7212ms            16  NEEDS IMPROVEMENT                       ║
+║  🔴 Arrived Shipments                7226ms            24  NEEDS IMPROVEMENT                       ║
+║  🔴 In Transit Shipments             7239ms             6  NEEDS IMPROVEMENT                       ║
+║                                                                                                    ║
+║  ── API CALLS DURING FILTER APPLICATION ──                                                         ║
+║    ✅ [POST]   391ms | 200 | …://stage.itt.bdpsmart.com/api/v1/show-filter/countries                ║
+║    ✅ [POST]   499ms | 200 | https://stage.itt.bdpsmart.com/api/v1/show-filter/ports                ║
+║    ✅ [POST]  2756ms | 200 | https://stage.itt.bdpsmart.com/api/v1/home/kpi                         ║
+║    ✅ [POST]  3137ms | 200 | https://stage.itt.bdpsmart.com/api/v1/home/map-data                    ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── MAP TOGGLE (Origin → Destination) — After Filter ──                                            ║
+║  🟡 Toggle switch time    :   4131ms                                                               ║
+║    Network idle time     :   1104ms                                                                ║
+║    API calls fired       :     14                                                                  ║
+║    Slowest API           :   2985ms                                                                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║    ✅ [POST]  2985ms | 200 | https://stage.itt.bdpsmart.com/api/v1/home/map-data                    ║
+║    ✅ [GET ]   362ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║    ✅ [GET ]   360ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║    ✅ [GET ]   358ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║    ✅ [GET ]    11ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║    ✅ [GET ]    12ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║    ✅ [GET ]    12ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║    ✅ [GET ]    13ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║    ✅ [GET ]    13ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║    ✅ [GET ]    13ms | 200 | …NrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w           ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── MODE OF TRANSPORT — TAB SWITCHING (After Filter) ──                                            ║
+║  TAB          SWITCH    API RESP   DATA DISP   APIs    SLOWEST  RATING                             ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🔴 Ocean      3205ms     23223ms     24791ms      0        0ms  POOR                              ║
+║  🟡 Air         129ms       485ms      2023ms      1      359ms  GOOD                              ║
+║  🟡 Rail       1545ms      1840ms      3375ms      1      308ms  NEEDS IMPROVEMENT                 ║
+║  🟡 Road       1509ms      1845ms      3381ms      1      342ms  NEEDS IMPROVEMENT                 ║
+║                                                                                                    ║
+║  Avg API response  :   6848ms    Avg data display :   8393ms                                       ║
+║                                                                                                    ║
+║  ── PER-TAB DETAIL: API CALLS & WIDGET DISPLAY ──                                                  ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Ocean  (switch=3205ms → API=23223ms → display=24791ms)                                         ║
+║                                                                                                    ║
+║    📡 No API calls detected (may use cached data)                                                  ║
+║                                                                                                    ║
+║    📊 Widget Display Timings:                                                                      ║
+║      🔴 Metrics                       24778ms  POOR                                                ║
+║      🔴 Recently Viewed Shipments     24784ms  POOR                                                ║
+║      🔴 Favourite                     24791ms  POOR                                                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Air  (switch=129ms → API=485ms → display=2023ms)                                               ║
+║                                                                                                    ║
+║    📡 API Calls (1):                                                                               ║
+║      ✅ [POST]   359ms | 204 | https://stage.itt.bdpsmart.com/api/v1/home/widget                    ║
+║                                                                                                    ║
+║    📊 Widget Display Timings:                                                                      ║
+║      ⬜ Metrics                      NOT VISIBLE                                                    ║
+║      🟢 Recently Viewed Shipments      2019ms  GOOD                                                ║
+║      🟢 Favourite                      2023ms  GOOD                                                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Rail  (switch=1545ms → API=1840ms → display=3375ms)                                            ║
+║                                                                                                    ║
+║    📡 API Calls (1):                                                                               ║
+║      ✅ [POST]   308ms | 204 | https://stage.itt.bdpsmart.com/api/v1/home/widget                    ║
+║                                                                                                    ║
+║    📊 Widget Display Timings:                                                                      ║
+║      ⬜ Metrics                      NOT VISIBLE                                                    ║
+║      🟡 Recently Viewed Shipments      3371ms  NEEDS IMPROVEMENT                                   ║
+║      🟡 Favourite                      3375ms  NEEDS IMPROVEMENT                                   ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Road  (switch=1509ms → API=1845ms → display=3381ms)                                            ║
+║                                                                                                    ║
+║    📡 API Calls (1):                                                                               ║
+║      ✅ [POST]   342ms | 204 | https://stage.itt.bdpsmart.com/api/v1/home/widget                    ║
+║                                                                                                    ║
+║    📊 Widget Display Timings:                                                                      ║
+║      ⬜ Metrics                      NOT VISIBLE                                                    ║
+║      🟡 Recently Viewed Shipments      3378ms  NEEDS IMPROVEMENT                                   ║
+║      🟡 Favourite                      3381ms  NEEDS IMPROVEMENT                                   ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── AGGREGATE API STATISTICS ──                                                                    ║
+║  Total API calls   :     21                                                                        ║
+║  Failed calls      :      0                                                                        ║
+║  Slow calls (>1s)  :      3                                                                        ║
+║  Min response      :     11ms                                                                      ║
+║  Avg response      :    572ms                                                                      ║
+║  P50 response      :    308ms                                                                      ║
+║  P90 response      :   2756ms                                                                      ║
+║  P99 response      :   3137ms                                                                      ║
+║  Max response      :   3137ms                                                                      ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── MEMORY SNAPSHOTS ──                                                                            ║
+║  STAGE                                          USED       TOTAL                                   ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  After Initial Home Page Load                53.10 MB     71.20 MB                                 ║
+║  After Filter Applied                        64.18 MB     78.60 MB                                 ║
+║  After Map Toggle (Post-Filter)              36.37 MB     48.40 MB                                 ║
+║  Final (After All Tabs)                      37.00 MB     42.91 MB                                 ║
+║                                                                                                    ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+Report generated at: 2026-03-10T14:38:36.175Z
+Test duration: 70.2s

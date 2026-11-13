@@ -1,0 +1,31 @@
+Module,LoadTimeMs,DataCount,Status
+In Transit,4818,3699,OK
+Arrived,21190,20100,OK
+Upcoming Shipments,2594,869,OK
+Incomplete Documents,1877,384,OK
+Request Pending Auto,1575,0,OK
+Request Pending Manual,1957,3564,OK
+Authorization Pending,1736,13,OK
+Authorised,1610,4,OK
+Upcoming Shipments (Customs),1954,776,OK
+Incomplete Documents (Customs),1681,258,OK
+Request Pending,1643,3615,OK
+Request Submitted,1496,6,OK
+Pending Clearance,1699,1,OK
+Clearance Completed,1559,1,OK
+Pre-Arrival,3581,1734,OK
+Ready to Plan,3090,8598,OK
+Draft,1578,12,OK
+Awaiting Confirmation,1329,29,OK
+Confirmed,1442,3,OK
+Revised,1431,6,OK
+Finalised,1501,60,OK
+Sent,1769,27,OK
+Accepted,1996,24,OK
+Rejected,1706,5,OK
+Cancelled,2114,4,OK
+In Progress,2215,35,OK
+Overdue,1869,15,OK
+Completed,1862,12,OK
+Awaiting Return,2227,54,OK
+Returned,1462,8,OK

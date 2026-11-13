@@ -1,0 +1,90 @@
+﻿Feature,Pages,16 Mar (seconds)
+,,
+Home Page,Dashboard,2.34
+,,
+Feature,Pages,16 Mar (seconds)
+Tracking List,Table View (All Shipments - First Visit),13.98
+Tracking List,Table View (Not Started - First Visit),9.04
+Tracking List,Table View (In Transit - First Visit),9.44
+Tracking List,Table View (Arrived - First Visit),11.4
+Tracking List,Table View (Document Only - First Visit),8.92
+Tracking List,Table View (Live Track Pending - First Visit),9.26
+Tracking List,Table View (Inactive Shipments - First Visit),9.19
+Tracking List,Table View (All Shipments - Revisit),13.8
+Tracking List,Table View (Not Started - Revisit),9.22
+Tracking List,Table View (In Transit - Revisit),9.4
+Tracking List,Table View (Arrived - Revisit),11.36
+Tracking List,Table View (Document Only - Revisit),8.94
+Tracking List,Table View (Live Track Pending - Revisit),9.41
+Tracking List,Table View (Inactive Shipments - Revisit),8.95
+,,
+Feature,Pages,16 Mar (seconds)
+Tracking Details,Home page to tracking details page,1.52
+Tracking Details,Tracking list to tracking details page,12.66
+Tracking Details,Detail Tab - Shipment Information,2.52
+Tracking Details,Detail Tab - Location,2.57
+Tracking Details,Detail Tab - Event,2.53
+Tracking Details,Detail Tab - Alerts,2.53
+Tracking Details,Detail Tab - Documents,0.92
+,,
+Feature,Pages,16 Mar (seconds)
+Global Search,Exact search using key reference number (US10020996682),6.02
+Global Search,Partial string search using key reference number (US100),23.91
+Global Search,Global Search from Home Page (us100),7.19
+Global Search,Search from Tracking List (us100),17.3
+,,
+Feature,Pages,16 Mar (seconds)
+Show Filters,Application of certain filter in the home page,6.99
+Show Filters,Application of certain filter in the tracking list page,11.25
+Show Filters,Applying saved filter (Home to TrackingList round-trip),11.48
+,,
+Feature,Pages,16 Mar (seconds)
+Clear filter,Show Filter sidebar open (Home),1.17
+Clear filter,Show Filter sidebar open (Tracking List),1.45
+Clear filter,Settings icon to saved filters panel (Home),2.05
+Clear filter,Settings icon to saved filters panel (Tracking List),2.05
+,,
+Feature,Pages,16 Mar (seconds)
+Home to Tracking List Round-Trip,Home Page Load (initial),2.36
+Home to Tracking List Round-Trip,Home to Tracking List,11.75
+Home to Tracking List Round-Trip,Show Filters to sidebar open,1.36
+Home to Tracking List Round-Trip,Settings to saved filters panel,2.06
+Home to Tracking List Round-Trip,Filter Apply to data loaded,11.48
+Home to Tracking List Round-Trip,Tracking List to Home (filtered),7.37
+Home to Tracking List Round-Trip,Home to Tracking List (return trip),12.05
+Home to Tracking List Round-Trip,TOTAL ROUND-TRIP TIME,48.42
+,,
+Feature,Pages,16 Mar (seconds)
+Transport Tabs (Home Page),Ocean,3.77
+Transport Tabs (Home Page),Air,0.07
+Transport Tabs (Home Page),Rail,1.6
+Transport Tabs (Home Page),Road,1.63
+Transport Tabs (Home Page),Map Toggle (Origin to Destination),4.68
+,,
+Feature,Pages,16 Mar (seconds)
+Transport Tabs (Post-Filter),Ocean,3.47
+Transport Tabs (Post-Filter),Air,0.07
+Transport Tabs (Post-Filter),Rail,1.68
+Transport Tabs (Post-Filter),Road,1.63
+Transport Tabs (Post-Filter),Map Toggle (Post-Filter Destination),4.56
+,,
+Feature,Pages,16 Mar (seconds)
+Tracking List Filter Tabs (Post-Filter),All shipment,10.02
+Tracking List Filter Tabs (Post-Filter),Not started,9.04
+Tracking List Filter Tabs (Post-Filter),In transit,9.46
+Tracking List Filter Tabs (Post-Filter),Arrived,9.5
+Tracking List Filter Tabs (Post-Filter),Inactive shipments,9.19
+Tracking List Filter Tabs (Post-Filter),Document only,9.45
+Tracking List Filter Tabs (Post-Filter),Live Track pending,9.62
+,,
+Feature,Pages,16 Mar (seconds)
+Test Execution Info,Environment,stage.itt.bdpsmart.com
+Test Execution Info,Browser,Microsoft Edge (Chromium)
+Test Execution Info,Test Date,2026-03-16
+Test Execution Info,Test 1 - Home - Tracking List Filter Perf (seconds),97.7
+Test Execution Info,Test 2 - Global Search - Shipment Details (seconds),106.3
+Test Execution Info,Test 3 - Tracking List Filter Performance (seconds),146.5
+Test Execution Info,Test 4 - Filter Performance (Home Page) (seconds),92.5
+Test Execution Info,Test 5 - Home Page Timing (seconds),90.4
+Test Execution Info,Test 6 - Tracking List Tab Perf (seconds),222.5
+Test Execution Info,All Tests Passed,6/6

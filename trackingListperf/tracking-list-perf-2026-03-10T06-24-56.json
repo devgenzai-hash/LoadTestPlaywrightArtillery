@@ -1,0 +1,433 @@
+{
+  "testName": "Tracking List Tab Performance Profiling",
+  "timestamp": "2026-03-10T06:24:56.161Z",
+  "durationMs": 176274,
+  "browser": "chromium",
+  "navigationToTrackingListMs": 1881,
+  "navigationApiCalls": [
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 382,
+      "resourceType": "xhr",
+      "timestamp": 1773123732211
+    }
+  ],
+  "firstVisit": [
+    {
+      "tabName": "All Shipments",
+      "visit": "first",
+      "switchTimeMs": 7658,
+      "dataLoadTimeMs": 9856,
+      "networkIdleTimeMs": 825,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 9081,
+          "resourceType": "xhr",
+          "timestamp": 1773123741497
+        }
+      ],
+      "totalApiTimeMs": 9081,
+      "slowestApiMs": 9081,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Not Started",
+      "visit": "first",
+      "switchTimeMs": 104,
+      "dataLoadTimeMs": 8795,
+      "networkIdleTimeMs": 812,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8038,
+          "resourceType": "xhr",
+          "timestamp": 1773123751461
+        }
+      ],
+      "totalApiTimeMs": 8038,
+      "slowestApiMs": 8038,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "In Transit",
+      "visit": "first",
+      "switchTimeMs": 41,
+      "dataLoadTimeMs": 9054,
+      "networkIdleTimeMs": 809,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8246,
+          "resourceType": "xhr",
+          "timestamp": 1773123760364
+        }
+      ],
+      "totalApiTimeMs": 8246,
+      "slowestApiMs": 8246,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Arrived",
+      "visit": "first",
+      "switchTimeMs": 48,
+      "dataLoadTimeMs": 9149,
+      "networkIdleTimeMs": 811,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8339,
+          "resourceType": "xhr",
+          "timestamp": 1773123769476
+        }
+      ],
+      "totalApiTimeMs": 8339,
+      "slowestApiMs": 8339,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Document Only",
+      "visit": "first",
+      "switchTimeMs": 108,
+      "dataLoadTimeMs": 8639,
+      "networkIdleTimeMs": 814,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 7881,
+          "resourceType": "xhr",
+          "timestamp": 1773123778684
+        }
+      ],
+      "totalApiTimeMs": 7881,
+      "slowestApiMs": 7881,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Live Track Pending",
+      "visit": "first",
+      "switchTimeMs": 117,
+      "dataLoadTimeMs": 8634,
+      "networkIdleTimeMs": 827,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 7853,
+          "resourceType": "xhr",
+          "timestamp": 1773123787456
+        }
+      ],
+      "totalApiTimeMs": 7853,
+      "slowestApiMs": 7853,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Inactive Shipments",
+      "visit": "first",
+      "switchTimeMs": 94,
+      "dataLoadTimeMs": 8760,
+      "networkIdleTimeMs": 811,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 8000,
+          "resourceType": "xhr",
+          "timestamp": 1773123796195
+        }
+      ],
+      "totalApiTimeMs": 8000,
+      "slowestApiMs": 8000,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list"
+    }
+  ],
+  "revisit": [
+    {
+      "tabName": "All Shipments",
+      "visit": "revisit",
+      "switchTimeMs": 31,
+      "dataLoadTimeMs": 9796,
+      "networkIdleTimeMs": 815,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8982,
+          "resourceType": "xhr",
+          "timestamp": 1773123805045
+        }
+      ],
+      "totalApiTimeMs": 8982,
+      "slowestApiMs": 8982,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Not Started",
+      "visit": "revisit",
+      "switchTimeMs": 146,
+      "dataLoadTimeMs": 8781,
+      "networkIdleTimeMs": 807,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8066,
+          "resourceType": "xhr",
+          "timestamp": 1773123814901
+        }
+      ],
+      "totalApiTimeMs": 8066,
+      "slowestApiMs": 8066,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "In Transit",
+      "visit": "revisit",
+      "switchTimeMs": 34,
+      "dataLoadTimeMs": 8789,
+      "networkIdleTimeMs": 806,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 7985,
+          "resourceType": "xhr",
+          "timestamp": 1773123823813
+        }
+      ],
+      "totalApiTimeMs": 7985,
+      "slowestApiMs": 7985,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Arrived",
+      "visit": "revisit",
+      "switchTimeMs": 131,
+      "dataLoadTimeMs": 9008,
+      "networkIdleTimeMs": 818,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8237,
+          "resourceType": "xhr",
+          "timestamp": 1773123832694
+        }
+      ],
+      "totalApiTimeMs": 8237,
+      "slowestApiMs": 8237,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Document Only",
+      "visit": "revisit",
+      "switchTimeMs": 114,
+      "dataLoadTimeMs": 8599,
+      "networkIdleTimeMs": 817,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 7843,
+          "resourceType": "xhr",
+          "timestamp": 1773123841809
+        }
+      ],
+      "totalApiTimeMs": 7843,
+      "slowestApiMs": 7843,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Live Track Pending",
+      "visit": "revisit",
+      "switchTimeMs": 38,
+      "dataLoadTimeMs": 8841,
+      "networkIdleTimeMs": 805,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 8038,
+          "resourceType": "xhr",
+          "timestamp": 1773123850514
+        }
+      ],
+      "totalApiTimeMs": 8038,
+      "slowestApiMs": 8038,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Inactive Shipments",
+      "visit": "revisit",
+      "switchTimeMs": 29,
+      "dataLoadTimeMs": 8830,
+      "networkIdleTimeMs": 812,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 8019,
+          "resourceType": "xhr",
+          "timestamp": 1773123859389
+        }
+      ],
+      "totalApiTimeMs": 8019,
+      "slowestApiMs": 8019,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list"
+    }
+  ],
+  "apiSummary": {
+    "totalCalls": 16,
+    "failedCalls": 0,
+    "avgResponseMs": 7402,
+    "p50Ms": 8038,
+    "p90Ms": 8982,
+    "p99Ms": 9081,
+    "maxMs": 9081,
+    "minMs": 382,
+    "slowCalls": 15
+  },
+  "cacheComparison": [
+    {
+      "tabName": "All Shipments",
+      "firstVisitMs": 9856,
+      "revisitMs": 9796,
+      "improvementPct": 1
+    },
+    {
+      "tabName": "Not Started",
+      "firstVisitMs": 8795,
+      "revisitMs": 8781,
+      "improvementPct": 0
+    },
+    {
+      "tabName": "In Transit",
+      "firstVisitMs": 9054,
+      "revisitMs": 8789,
+      "improvementPct": 3
+    },
+    {
+      "tabName": "Arrived",
+      "firstVisitMs": 9149,
+      "revisitMs": 9008,
+      "improvementPct": 2
+    },
+    {
+      "tabName": "Document Only",
+      "firstVisitMs": 8639,
+      "revisitMs": 8599,
+      "improvementPct": 0
+    },
+    {
+      "tabName": "Live Track Pending",
+      "firstVisitMs": 8634,
+      "revisitMs": 8841,
+      "improvementPct": -2
+    },
+    {
+      "tabName": "Inactive Shipments",
+      "firstVisitMs": 8760,
+      "revisitMs": 8830,
+      "improvementPct": -1
+    }
+  ],
+  "searchProfiling": {
+    "searchTerm": "us100",
+    "searchTimeMs": 13651,
+    "networkIdleMs": 1019,
+    "resultRowCount": 20,
+    "apiCalls": [
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=us100",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 3445,
+        "resourceType": "xhr",
+        "timestamp": 1773123878521
+      }
+    ],
+    "slowestApiMs": 3445,
+    "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=us100"
+  },
+  "shipmentDetailProfiling": {
+    "shipmentNumber": "BNST1000014029",
+    "navigationTimeMs": 11945,
+    "networkIdleMs": 1513,
+    "apiCalls": [],
+    "totalApiTimeMs": 0,
+    "slowestApiMs": 0,
+    "slowestApiUrl": "",
+    "pageUrl": "https://stage.itt.bdpsmart.com/#/tracking-list?globalSearch=us100"
+  },
+  "memorySnapshots": [
+    {
+      "stage": "After Login (Baseline)",
+      "usedMB": 46.67,
+      "totalMB": 75.18
+    },
+    {
+      "stage": "After Tracking List Nav",
+      "usedMB": 46.66,
+      "totalMB": 75.82
+    },
+    {
+      "stage": "After First Visit (all tabs)",
+      "usedMB": 30.08,
+      "totalMB": 36.52
+    },
+    {
+      "stage": "After Revisit (all tabs)",
+      "usedMB": 30.3,
+      "totalMB": 38.02
+    },
+    {
+      "stage": "After Search + Detail Nav",
+      "usedMB": 32.71,
+      "totalMB": 38.63
+    }
+  ],
+  "consoleErrors": [
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)",
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)",
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)",
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)",
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)",
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)"
+  ]
+}

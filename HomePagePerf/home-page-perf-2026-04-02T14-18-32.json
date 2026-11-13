@@ -1,0 +1,376 @@
+{
+  "testName": "Home Page Comprehensive Timing",
+  "timestamp": "2026-04-02T14:18:32.978Z",
+  "durationMs": 99200,
+  "browser": "firefox",
+  "pageLoadMs": 2850,
+  "pageLoadApiCalls": [
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Offc%20Pro%20Bold,Arial%20Unicode%20MS%20Bold,DIN%20Offc%20Pro%20Medium/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 15,
+      "resourceType": "fetch",
+      "timestamp": 1775139430753
+    },
+    {
+      "url": "https://events.mapbox.com/events/v2?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "POST",
+      "status": 204,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139430884
+    },
+    {
+      "url": "https://api.mapbox.com/map-sessions/v1?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 14,
+      "resourceType": "fetch",
+      "timestamp": 1775139430904
+    }
+  ],
+  "kpiResults": [
+    {
+      "name": "Not Started Shipments",
+      "renderTimeMs": 49,
+      "dataValue": "10,089",
+      "apiCalls": []
+    },
+    {
+      "name": "Arrived Shipments",
+      "renderTimeMs": 268,
+      "dataValue": "23,709",
+      "apiCalls": []
+    },
+    {
+      "name": "In Transit Shipments",
+      "renderTimeMs": 378,
+      "dataValue": "12,372",
+      "apiCalls": []
+    }
+  ],
+  "mapToggle": {
+    "toggleName": "Destination",
+    "switchTimeMs": 5774,
+    "networkIdleTimeMs": 1174,
+    "apiCalls": [
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/home/map-data",
+        "method": "POST",
+        "status": 200,
+        "durationMs": 4404,
+        "resourceType": "xhr",
+        "timestamp": 1775139433516
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/1/1/0.vector.pbf?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 18,
+        "resourceType": "fetch",
+        "timestamp": 1775139438018
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/1/1/1.vector.pbf?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 30,
+        "resourceType": "fetch",
+        "timestamp": 1775139438051
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/3/4/5.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 12,
+        "resourceType": "fetch",
+        "timestamp": 1775139438185
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/3/3/5.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 29,
+        "resourceType": "fetch",
+        "timestamp": 1775139438266
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/3/5/5.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 20,
+        "resourceType": "fetch",
+        "timestamp": 1775139438275
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/3/2/5.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 38,
+        "resourceType": "fetch",
+        "timestamp": 1775139438280
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/3/6/5.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 23,
+        "resourceType": "fetch",
+        "timestamp": 1775139438295
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/3/1/5.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 16,
+        "resourceType": "fetch",
+        "timestamp": 1775139438318
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/3/7/3.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 18,
+        "resourceType": "fetch",
+        "timestamp": 1775139438324
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/3/7/4.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 15,
+        "resourceType": "fetch",
+        "timestamp": 1775139438334
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/1/0/0.vector.pbf?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 0,
+        "resourceType": "fetch",
+        "timestamp": 1775139438654
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/1/0/0.vector.pbf?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 0,
+        "resourceType": "fetch",
+        "timestamp": 1775139438675
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/1/0/1.vector.pbf?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 79,
+        "resourceType": "fetch",
+        "timestamp": 1775139438684
+      },
+      {
+        "url": "https://api.mapbox.com/v4/mapbox.satellite/2/2/1.webp?sku=101E9LjGCXRyj&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 0,
+        "resourceType": "fetch",
+        "timestamp": 1775139438912
+      }
+    ],
+    "slowestApiMs": 4404,
+    "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/home/map-data"
+  },
+  "transportTabs": [
+    {
+      "tabName": "Ocean",
+      "switchTimeMs": 5556,
+      "apiResponseTimeMs": 25573,
+      "dataDisplayTimeMs": 27137,
+      "networkIdleTimeMs": 1512,
+      "apiCalls": [],
+      "slowestApiMs": 0,
+      "slowestApiUrl": "N/A",
+      "widgetTimings": [
+        {
+          "widgetName": "Metrics",
+          "renderTimeMs": 27107,
+          "visible": true
+        },
+        {
+          "widgetName": "Recently Viewed Shipments",
+          "renderTimeMs": 27123,
+          "visible": true
+        },
+        {
+          "widgetName": "Favourite",
+          "renderTimeMs": 27137,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "tabName": "Air",
+      "switchTimeMs": 802,
+      "apiResponseTimeMs": 1002,
+      "dataDisplayTimeMs": 2596,
+      "networkIdleTimeMs": 1521,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/home/widget",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 545,
+          "resourceType": "xhr",
+          "timestamp": 1775139469191
+        }
+      ],
+      "slowestApiMs": 545,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/home/widget",
+      "widgetTimings": [
+        {
+          "widgetName": "Metrics",
+          "renderTimeMs": 0,
+          "visible": false
+        },
+        {
+          "widgetName": "Recently Viewed Shipments",
+          "renderTimeMs": 2585,
+          "visible": true
+        },
+        {
+          "widgetName": "Favourite",
+          "renderTimeMs": 2596,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "tabName": "Rail",
+      "switchTimeMs": 3653,
+      "apiResponseTimeMs": 4035,
+      "dataDisplayTimeMs": 5617,
+      "networkIdleTimeMs": 1507,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/home/widget",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 415,
+          "resourceType": "xhr",
+          "timestamp": 1775139475103
+        }
+      ],
+      "slowestApiMs": 415,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/home/widget",
+      "widgetTimings": [
+        {
+          "widgetName": "Metrics",
+          "renderTimeMs": 0,
+          "visible": false
+        },
+        {
+          "widgetName": "Recently Viewed Shipments",
+          "renderTimeMs": 5597,
+          "visible": true
+        },
+        {
+          "widgetName": "Favourite",
+          "renderTimeMs": 5617,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "tabName": "Road",
+      "switchTimeMs": 3823,
+      "apiResponseTimeMs": 4227,
+      "dataDisplayTimeMs": 5831,
+      "networkIdleTimeMs": 1516,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/home/widget",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 456,
+          "resourceType": "xhr",
+          "timestamp": 1775139481008
+        }
+      ],
+      "slowestApiMs": 456,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/home/widget",
+      "widgetTimings": [
+        {
+          "widgetName": "Metrics",
+          "renderTimeMs": 0,
+          "visible": false
+        },
+        {
+          "widgetName": "Recently Viewed Shipments",
+          "renderTimeMs": 5818,
+          "visible": true
+        },
+        {
+          "widgetName": "Favourite",
+          "renderTimeMs": 5831,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "globalSearch": {
+    "searchTerm": "us100",
+    "searchTimeMs": 29288,
+    "navigationTimeMs": 4826,
+    "resultLoadTimeMs": 22061,
+    "networkIdleMs": 0,
+    "apiCalls": [
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=us100",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 4549,
+        "resourceType": "xhr",
+        "timestamp": 1775139486098
+      },
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 476,
+        "resourceType": "xhr",
+        "timestamp": 1775139491155
+      },
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 460,
+        "resourceType": "xhr",
+        "timestamp": 1775139491171
+      },
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list",
+        "method": "POST",
+        "status": 200,
+        "durationMs": 19165,
+        "resourceType": "xhr",
+        "timestamp": 1775139491776
+      }
+    ],
+    "slowestApiMs": 19165,
+    "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list",
+    "navigatedUrl": "https://stage.itt.bdpsmart.com/#/tracking-list?globalSearch=us100"
+  },
+  "apiSummary": {
+    "totalCalls": 25,
+    "failedCalls": 0,
+    "avgResponseMs": 1232,
+    "p50Ms": 23,
+    "p90Ms": 4404,
+    "p99Ms": 19165,
+    "maxMs": 19165,
+    "minMs": 0,
+    "slowCalls": 3
+  },
+  "memorySnapshots": [],
+  "consoleErrors": []
+}

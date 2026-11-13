@@ -1,0 +1,496 @@
+﻿,,
+=== TEST 5: Home Page Comprehensive Timing ===,,
+Feature / Test,Action / Page,18 Mar (seconds)
+Home Page Load,Dashboard Page Load,2.22
+,,
+Home Page KPI,"Not Started Shipments - Render Time (value: 2,228)",0.03
+Home Page KPI,"Arrived Shipments - Render Time (value: 12,504)",0.09
+Home Page KPI,"In Transit Shipments - Render Time (value: 11,517)",0.15
+,,
+Home Page Transport Tab,Ocean - Tab Switch,4.94
+Home Page Transport Tab,Ocean - Data Display,26.51
+Home Page Transport Tab,Ocean - API Response,24.94
+Home Page Transport Tab,Ocean - Network Idle,1.53
+Home Page Transport Tab,Ocean > Widget: Metrics (visible),26.49
+Home Page Transport Tab,Ocean > Widget: Recently Viewed Shipments (visible),26.5
+Home Page Transport Tab,Ocean > Widget: Favourite (visible),26.51
+Home Page Transport Tab,Air - Tab Switch,0.21
+Home Page Transport Tab,Air - Data Display,2.24
+Home Page Transport Tab,Air - API Response,0.61
+Home Page Transport Tab,Air - Network Idle,1.52
+Home Page Transport Tab,Air > Widget: Metrics (hidden),0
+Home Page Transport Tab,Air > Widget: Recently Viewed Shipments (visible),2.17
+Home Page Transport Tab,Air > Widget: Favourite (visible),2.24
+Home Page Transport Tab,Rail - Tab Switch,2.15
+Home Page Transport Tab,Rail - Data Display,4.06
+Home Page Transport Tab,Rail - API Response,2.47
+Home Page Transport Tab,Rail - Network Idle,1.52
+Home Page Transport Tab,Rail > Widget: Metrics (hidden),0
+Home Page Transport Tab,Rail > Widget: Recently Viewed Shipments (visible),4.05
+Home Page Transport Tab,Rail > Widget: Favourite (visible),4.06
+Home Page Transport Tab,Road - Tab Switch,1.99
+Home Page Transport Tab,Road - Data Display,4.15
+Home Page Transport Tab,Road - API Response,2.57
+Home Page Transport Tab,Road - Network Idle,1.52
+Home Page Transport Tab,Road > Widget: Metrics (hidden),0
+Home Page Transport Tab,Road > Widget: Recently Viewed Shipments (visible),4.13
+Home Page Transport Tab,Road > Widget: Favourite (visible),4.15
+,,
+Home Page Map,Map Toggle (Destination) - Switch,5
+Home Page Map,Map Toggle - Network Idle,1.02
+Home Page Map,Map Toggle - Slowest API,3.76
+,,
+Home Page Global Search,Search Term: us100,
+Home Page Global Search,Total Search Time,7.9
+Home Page Global Search,Navigation Time,3.65
+Home Page Global Search,Result Load Time,2.51
+Home Page Global Search,Slowest API,3.53
+,,
+Home Page API Summary,Total API Calls,22
+Home Page API Summary,Failed API Calls,0
+Home Page API Summary,Avg Response,0.43
+Home Page API Summary,P50 Response,0.02
+Home Page API Summary,P90 Response,0.59
+Home Page API Summary,P99 Response,3.76
+Home Page API Summary,Max Response,3.76
+Home Page API Summary,Min Response,0
+Home Page API Summary,Slow Calls (>3s),2
+,,
+,,
+,,
+=== TEST 4: Filter Performance (Home Page) ===,,
+Feature / Test,Action / Page,18 Mar (seconds)
+Filter Perf (Home),Login to Home,17.3
+Filter Perf (Home),Initial Page Load,2.47
+,,
+Filter Perf KPI (Before Filter),"Not Started Shipments - Render Time (value: 2,228)",0.03
+Filter Perf KPI (Before Filter),"Arrived Shipments - Render Time (value: 12,504)",0.1
+Filter Perf KPI (Before Filter),"In Transit Shipments - Render Time (value: 11,517)",0.16
+,,
+Filter Apply (Home),Filter Name,PerformanceTesting
+Filter Apply (Home),Show Filter Click (sidebar open),1.49
+Filter Apply (Home),Settings Icon Click (saved filters),2.11
+Filter Apply (Home),Filter Apply Time,7.11
+Filter Apply (Home),Slowest API during filter,3.62
+,,
+Filter Perf KPI (After Filter),Not Started Shipments - Render Time (value: 112),6.99
+Filter Perf KPI (After Filter),Arrived Shipments - Render Time (value: 499),7.04
+Filter Perf KPI (After Filter),In Transit Shipments - Render Time (value: 492),7.09
+,,
+Transport Tab Post-Filter (Home),Ocean - Tab Switch,4.54
+Transport Tab Post-Filter (Home),Ocean - Data Display,26.11
+Transport Tab Post-Filter (Home),Ocean - API Response,24.56
+Transport Tab Post-Filter (Home),Ocean - Network Idle,1.5
+Transport Tab Post-Filter (Home),Ocean > Widget: Metrics (visible),26.08
+Transport Tab Post-Filter (Home),Ocean > Widget: Recently Viewed Shipments (visible),26.1
+Transport Tab Post-Filter (Home),Ocean > Widget: Favourite (visible),26.11
+Transport Tab Post-Filter (Home),Air - Tab Switch,0.21
+Transport Tab Post-Filter (Home),Air - Data Display,2.14
+Transport Tab Post-Filter (Home),Air - API Response,0.57
+Transport Tab Post-Filter (Home),Air - Network Idle,1.51
+Transport Tab Post-Filter (Home),Air > Widget: Metrics (hidden),0
+Transport Tab Post-Filter (Home),Air > Widget: Recently Viewed Shipments (visible),2.12
+Transport Tab Post-Filter (Home),Air > Widget: Favourite (visible),2.14
+Transport Tab Post-Filter (Home),Rail - Tab Switch,1.99
+Transport Tab Post-Filter (Home),Rail - Data Display,3.9
+Transport Tab Post-Filter (Home),Rail - API Response,2.32
+Transport Tab Post-Filter (Home),Rail - Network Idle,1.51
+Transport Tab Post-Filter (Home),Rail > Widget: Metrics (hidden),0
+Transport Tab Post-Filter (Home),Rail > Widget: Recently Viewed Shipments (visible),3.89
+Transport Tab Post-Filter (Home),Rail > Widget: Favourite (visible),3.9
+Transport Tab Post-Filter (Home),Road - Tab Switch,1.95
+Transport Tab Post-Filter (Home),Road - Data Display,3.89
+Transport Tab Post-Filter (Home),Road - API Response,2.31
+Transport Tab Post-Filter (Home),Road - Network Idle,1.52
+Transport Tab Post-Filter (Home),Road > Widget: Metrics (hidden),0
+Transport Tab Post-Filter (Home),Road > Widget: Recently Viewed Shipments (visible),3.88
+Transport Tab Post-Filter (Home),Road > Widget: Favourite (visible),3.89
+,,
+Map Toggle Post-Filter (Home),Map Toggle (Destination) - Switch,4.76
+Map Toggle Post-Filter (Home),Map Toggle - Network Idle,1.03
+Map Toggle Post-Filter (Home),Map Toggle - Slowest API,3.54
+,,
+Filter Perf API Summary,Total API Calls,22
+Filter Perf API Summary,Failed API Calls,0
+Filter Perf API Summary,Avg Response,0.47
+Filter Perf API Summary,P50 Response,0.06
+Filter Perf API Summary,P90 Response,0.45
+Filter Perf API Summary,P99 Response,3.62
+Filter Perf API Summary,Max Response,3.62
+Filter Perf API Summary,Min Response,0.01
+Filter Perf API Summary,Slow Calls (>3s),2
+,,
+,,
+,,
+=== TEST 6: Tracking List Tab Performance Profiling ===,,
+Feature / Test,Action / Page,18 Mar (seconds)
+Tracking List Nav,Navigation to Tracking List,3.1
+,,
+Tracking List (First Visit),All Shipments - Data Load,15.52
+Tracking List (First Visit),All Shipments - Tab Switch,1.14
+Tracking List (First Visit),All Shipments - Network Idle,0.83
+Tracking List (First Visit),All Shipments - Row Count,10
+Tracking List (First Visit),All Shipments - Slowest API,14.97
+Tracking List (First Visit),Not Started - Data Load,1.17
+Tracking List (First Visit),Not Started - Tab Switch,0.45
+Tracking List (First Visit),Not Started - Network Idle,0.83
+Tracking List (First Visit),Not Started - Row Count,10
+Tracking List (First Visit),Not Started - Slowest API,0.58
+Tracking List (First Visit),In Transit - Data Load,2.66
+Tracking List (First Visit),In Transit - Tab Switch,0.28
+Tracking List (First Visit),In Transit - Network Idle,0.82
+Tracking List (First Visit),In Transit - Row Count,10
+Tracking List (First Visit),In Transit - Slowest API,1.95
+Tracking List (First Visit),Arrived - Data Load,8.75
+Tracking List (First Visit),Arrived - Tab Switch,0.44
+Tracking List (First Visit),Arrived - Network Idle,0.8
+Tracking List (First Visit),Arrived - Row Count,10
+Tracking List (First Visit),Arrived - Slowest API,8.18
+Tracking List (First Visit),Document Only - Data Load,1.31
+Tracking List (First Visit),Document Only - Tab Switch,0.29
+Tracking List (First Visit),Document Only - Network Idle,0.81
+Tracking List (First Visit),Document Only - Row Count,1
+Tracking List (First Visit),Document Only - Slowest API,0.61
+Tracking List (First Visit),Live Track Pending - Data Load,1.01
+Tracking List (First Visit),Live Track Pending - Tab Switch,0.37
+Tracking List (First Visit),Live Track Pending - Network Idle,0.83
+Tracking List (First Visit),Live Track Pending - Row Count,5
+Tracking List (First Visit),Live Track Pending - Slowest API,0.39
+Tracking List (First Visit),Inactive Shipments - Data Load,3.67
+Tracking List (First Visit),Inactive Shipments - Tab Switch,0.32
+Tracking List (First Visit),Inactive Shipments - Network Idle,0.84
+Tracking List (First Visit),Inactive Shipments - Row Count,1
+Tracking List (First Visit),Inactive Shipments - Slowest API,2.98
+,,
+Tracking List (Revisit),All Shipments - Data Load,15.65
+Tracking List (Revisit),All Shipments - Tab Switch,0.25
+Tracking List (Revisit),All Shipments - Network Idle,0.82
+Tracking List (Revisit),All Shipments - Row Count,10
+Tracking List (Revisit),All Shipments - Slowest API,14.93
+Tracking List (Revisit),Not Started - Data Load,1.28
+Tracking List (Revisit),Not Started - Tab Switch,0.35
+Tracking List (Revisit),Not Started - Network Idle,0.83
+Tracking List (Revisit),Not Started - Row Count,10
+Tracking List (Revisit),Not Started - Slowest API,0.57
+Tracking List (Revisit),In Transit - Data Load,2.37
+Tracking List (Revisit),In Transit - Tab Switch,0.31
+Tracking List (Revisit),In Transit - Network Idle,0.83
+Tracking List (Revisit),In Transit - Row Count,10
+Tracking List (Revisit),In Transit - Slowest API,1.65
+Tracking List (Revisit),Arrived - Data Load,8.75
+Tracking List (Revisit),Arrived - Tab Switch,0.35
+Tracking List (Revisit),Arrived - Network Idle,0.8
+Tracking List (Revisit),Arrived - Row Count,10
+Tracking List (Revisit),Arrived - Slowest API,8.1
+Tracking List (Revisit),Document Only - Data Load,1.02
+Tracking List (Revisit),Document Only - Tab Switch,0.42
+Tracking List (Revisit),Document Only - Network Idle,0.81
+Tracking List (Revisit),Document Only - Row Count,1
+Tracking List (Revisit),Document Only - Slowest API,0.34
+Tracking List (Revisit),Live Track Pending - Data Load,1.1
+Tracking List (Revisit),Live Track Pending - Tab Switch,0.26
+Tracking List (Revisit),Live Track Pending - Network Idle,0.84
+Tracking List (Revisit),Live Track Pending - Row Count,5
+Tracking List (Revisit),Live Track Pending - Slowest API,0.38
+Tracking List (Revisit),Inactive Shipments - Data Load,3.52
+Tracking List (Revisit),Inactive Shipments - Tab Switch,0.36
+Tracking List (Revisit),Inactive Shipments - Network Idle,0.84
+Tracking List (Revisit),Inactive Shipments - Row Count,1
+Tracking List (Revisit),Inactive Shipments - Slowest API,2.9
+,,
+Tracking List Cache Comparison,All Shipments - First Visit,15.52
+Tracking List Cache Comparison,All Shipments - Revisit,15.65
+Tracking List Cache Comparison,All Shipments - Improvement %,-1%
+Tracking List Cache Comparison,Not Started - First Visit,1.17
+Tracking List Cache Comparison,Not Started - Revisit,1.28
+Tracking List Cache Comparison,Not Started - Improvement %,-10%
+Tracking List Cache Comparison,In Transit - First Visit,2.66
+Tracking List Cache Comparison,In Transit - Revisit,2.37
+Tracking List Cache Comparison,In Transit - Improvement %,11%
+Tracking List Cache Comparison,Arrived - First Visit,8.75
+Tracking List Cache Comparison,Arrived - Revisit,8.75
+Tracking List Cache Comparison,Arrived - Improvement %,0%
+Tracking List Cache Comparison,Document Only - First Visit,1.31
+Tracking List Cache Comparison,Document Only - Revisit,1.02
+Tracking List Cache Comparison,Document Only - Improvement %,22%
+Tracking List Cache Comparison,Live Track Pending - First Visit,1.01
+Tracking List Cache Comparison,Live Track Pending - Revisit,1.1
+Tracking List Cache Comparison,Live Track Pending - Improvement %,-9%
+Tracking List Cache Comparison,Inactive Shipments - First Visit,3.67
+Tracking List Cache Comparison,Inactive Shipments - Revisit,3.52
+Tracking List Cache Comparison,Inactive Shipments - Improvement %,4%
+,,
+Tracking List Search,Search Term: us100,
+Tracking List Search,Search Time,20.74
+Tracking List Search,Network Idle,1.03
+Tracking List Search,Result Row Count,20
+Tracking List Search,Slowest API,4
+,,
+Tracking List to Detail,Shipment: EMARG201811047AR,
+Tracking List to Detail,Navigation Time,13.87
+Tracking List to Detail,Network Idle,1.52
+,,
+Tracking List API Summary,Total API Calls,19
+Tracking List API Summary,Failed API Calls,0
+Tracking List API Summary,Avg Response,3.32
+Tracking List API Summary,P50 Response,0.61
+Tracking List API Summary,P90 Response,14.93
+Tracking List API Summary,P99 Response,14.97
+Tracking List API Summary,Max Response,14.97
+Tracking List API Summary,Min Response,0.01
+Tracking List API Summary,Slow Calls (>3s),9
+,,
+Tracking List Errors,Console Errors Count,4
+Tracking List Errors,Error,âŒ API call failed: Error
+,,
+,,
+=== TEST 2: Global Search to Shipment Details ===,,
+Feature / Test,Action / Page,18 Mar (seconds)
+Search Details,Home Page Load,1.59
+Search Details,Home Page Network Idle,1.52
+,,
+Global Search (Exact),Search Term: US10020996682,
+Global Search (Exact),Search Time,6.67
+Global Search (Exact),Network Idle,2.01
+Global Search (Exact),Total API Time,7.15
+Global Search (Exact),Slowest API,3.91
+,,
+Shipment Detail Page,Shipment: US10020996682,
+Shipment Detail Page,Navigation Time,1.81
+Shipment Detail Page,Network Idle,1.81
+Shipment Detail Page,Data Visible Time,0.28
+,,
+Shipment Detail Tab,Shipment Information - Switch Time,1.89
+Shipment Detail Tab,Shipment Information - Data Load,2.54
+Shipment Detail Tab,Shipment Information - Total API Time,1.07
+Shipment Detail Tab,Shipment Information - Slowest API,0.31
+Shipment Detail Tab,Location - Switch Time,0.19
+Shipment Detail Tab,Location - Data Load,2.52
+Shipment Detail Tab,Event - Switch Time,0.3
+Shipment Detail Tab,Event - Data Load,2.54
+Shipment Detail Tab,Alerts - Switch Time,0.32
+Shipment Detail Tab,Alerts - Data Load,2.52
+Shipment Detail Tab,Documents - Switch Time,0.22
+Shipment Detail Tab,Documents - Data Load,1.16
+Shipment Detail Tab,Documents - Total API Time,1.48
+Shipment Detail Tab,Documents - Slowest API,0.79
+,,
+Shipment Info Section,General Information - Expand Time (expanded),3.28
+Shipment Info Section,Transport Information - Expand Time (expanded),3.26
+Shipment Info Section,Current Location - Expand Time (expanded),3.29
+Shipment Info Section,Co2 Emissions - Expand Time (expanded),6.39
+,,
+Search Details Navigation,Back to Home,1.8
+,,
+Global Search (Partial),Search Term: US100,
+Global Search (Partial),Search Time,26.5
+Global Search (Partial),Network Idle,3
+Global Search (Partial),Total API Time,17.82
+Global Search (Partial),Slowest API,13.71
+,,
+Search Details API Summary,Total API Calls,55
+Search Details API Summary,Failed API Calls,1
+Search Details API Summary,Avg Response,0.57
+Search Details API Summary,P50 Response,0.06
+Search Details API Summary,P90 Response,0.7
+Search Details API Summary,P99 Response,13.71
+Search Details API Summary,Max Response,13.71
+Search Details API Summary,Min Response,0
+Search Details API Summary,Slow Calls (>3s),3
+,,
+Search Details Errors,Console Errors Count,1
+Search Details Errors,Error,âŒ Failed to load CO2 emissions: JSHandle@object
+,,
+,,
+=== TEST 3: Tracking List Filter Performance ===,,
+Feature / Test,Action / Page,18 Mar (seconds)
+TL Filter Perf,Login to Page,20.21
+TL Filter Perf,Initial Page Load,2.91
+TL Filter Perf,Initial Row Count,10
+,,
+TL Filter Apply,Filter Name,PeformanceTesting
+TL Filter Apply,Show Filter Click (sidebar open),1.77
+TL Filter Apply,Settings Icon Click (saved filters),2.28
+TL Filter Apply,Filter Apply Time,4.53
+TL Filter Apply,Row Count After Filter,10
+TL Filter Apply,Slowest API during filter,1.33
+,,
+TL Filter Tab (Post-Filter),All shipment - Time to First Row,1.71
+TL Filter Tab (Post-Filter),All shipment - Switch Time,0.35
+TL Filter Tab (Post-Filter),All shipment - Network Idle,3.23
+TL Filter Tab (Post-Filter),All shipment - Row Count,1
+TL Filter Tab (Post-Filter),All shipment - Slowest API,0.68
+TL Filter Tab (Post-Filter),Not started - Time to First Row,1.87
+TL Filter Tab (Post-Filter),Not started - Switch Time,0.22
+TL Filter Tab (Post-Filter),Not started - Network Idle,3.39
+TL Filter Tab (Post-Filter),Not started - Row Count,10
+TL Filter Tab (Post-Filter),Not started - Slowest API,0.84
+TL Filter Tab (Post-Filter),In transit - Time to First Row,2.17
+TL Filter Tab (Post-Filter),In transit - Switch Time,0.43
+TL Filter Tab (Post-Filter),In transit - Network Idle,3.7
+TL Filter Tab (Post-Filter),In transit - Row Count,10
+TL Filter Tab (Post-Filter),In transit - Slowest API,1.42
+TL Filter Tab (Post-Filter),Arrived - Time to First Row,7.66
+TL Filter Tab (Post-Filter),Arrived - Switch Time,0.38
+TL Filter Tab (Post-Filter),Arrived - Network Idle,9.17
+TL Filter Tab (Post-Filter),Arrived - Row Count,10
+TL Filter Tab (Post-Filter),Arrived - Slowest API,7.03
+TL Filter Tab (Post-Filter),Inactive shipments - Time to First Row,3.8
+TL Filter Tab (Post-Filter),Inactive shipments - Switch Time,0.24
+TL Filter Tab (Post-Filter),Inactive shipments - Network Idle,5.32
+TL Filter Tab (Post-Filter),Inactive shipments - Row Count,1
+TL Filter Tab (Post-Filter),Inactive shipments - Slowest API,2.84
+TL Filter Tab (Post-Filter),Document only - Time to First Row,1.11
+TL Filter Tab (Post-Filter),Document only - Switch Time,0.65
+TL Filter Tab (Post-Filter),Document only - Network Idle,2.62
+TL Filter Tab (Post-Filter),Document only - Row Count,1
+TL Filter Tab (Post-Filter),Document only - Slowest API,0.43
+TL Filter Tab (Post-Filter),Live Track pending - Time to First Row,1.03
+TL Filter Tab (Post-Filter),Live Track pending - Switch Time,0.25
+TL Filter Tab (Post-Filter),Live Track pending - Network Idle,2.54
+TL Filter Tab (Post-Filter),Live Track pending - Row Count,1
+TL Filter Tab (Post-Filter),Live Track pending - Slowest API,0.42
+,,
+TL Filter API Summary,Total API Calls,12
+TL Filter API Summary,Failed API Calls,0
+TL Filter API Summary,Avg Response,1.5
+TL Filter API Summary,P50 Response,0.84
+TL Filter API Summary,P90 Response,2.84
+TL Filter API Summary,P99 Response,7.03
+TL Filter API Summary,Max Response,7.03
+TL Filter API Summary,Min Response,0.37
+TL Filter API Summary,Slow Calls (>3s),5
+,,
+TL Filter Errors,Console Errors Count,4
+TL Filter Errors,Error,âŒ API call failed: Error
+,,
+,,
+=== TEST 1: Home to Tracking List Filter Round-Trip ===,,
+Feature / Test,Action / Page,18 Mar (seconds)
+Round-Trip,Login to Home,17.68
+Round-Trip,Home Page Load (initial),2.12
+,,
+Round-Trip Nav Timing,DNS Lookup,0
+Round-Trip Nav Timing,TCP Connection,0.04
+Round-Trip Nav Timing,TLS Negotiation,0.02
+Round-Trip Nav Timing,Server Response Time,0.02
+Round-Trip Nav Timing,DOM Content Loaded,1.99
+Round-Trip Nav Timing,DOM Interactive,1.32
+Round-Trip Nav Timing,DOM Complete,1.99
+Round-Trip Nav Timing,Full Page Load,1.99
+,,
+Round-Trip,Home to Tracking List,5.38
+Round-Trip,Tracking List Page Load,5.38
+Round-Trip,Show Filters to sidebar open,1.61
+Round-Trip,Settings to saved filters panel,2.34
+Round-Trip,Filter Apply Click,0.57
+Round-Trip,Filter Data Load,4.98
+Round-Trip,Filter Slowest API,1.39
+Round-Trip,Tracking List to Home (filtered),7.25
+Round-Trip,Home After Filter Load,7.25
+Round-Trip,Home to Tracking List (return trip),4.89
+Round-Trip,Tracking List Return Load,4.89
+Round-Trip,TOTAL ROUND-TRIP TIME,28.58
+,,
+Round-Trip API Summary,Total API Calls,21
+Round-Trip API Summary,Failed API Calls,0
+Round-Trip API Summary,Avg Response,0.57
+Round-Trip API Summary,P50 Response,0.37
+Round-Trip API Summary,P90 Response,1.42
+Round-Trip API Summary,P99 Response,3.7
+Round-Trip API Summary,Max Response,3.7
+Round-Trip API Summary,Min Response,0
+Round-Trip API Summary,Slow Calls (>3s),4
+,,
+,,
+,,
+=== CONSOLIDATED: Home Page ===,,
+Feature / Test,Action / Page,18 Mar (seconds)
+Home Page,Dashboard,2.22
+,,
+Feature,Pages,18 Mar (seconds)
+Tracking List,Table View (All Shipments - First Visit),15.52
+Tracking List,Table View (Not Started - First Visit),1.17
+Tracking List,Table View (In Transit - First Visit),2.66
+Tracking List,Table View (Arrived - First Visit),8.75
+Tracking List,Table View (Document Only - First Visit),1.31
+Tracking List,Table View (Live Track Pending - First Visit),1.01
+Tracking List,Table View (Inactive Shipments - First Visit),3.67
+Tracking List,Table View (All Shipments - Revisit),15.65
+Tracking List,Table View (Not Started - Revisit),1.28
+Tracking List,Table View (In Transit - Revisit),2.37
+Tracking List,Table View (Arrived - Revisit),8.75
+Tracking List,Table View (Document Only - Revisit),1.02
+Tracking List,Table View (Live Track Pending - Revisit),1.1
+Tracking List,Table View (Inactive Shipments - Revisit),3.52
+,,
+Feature,Pages,18 Mar (seconds)
+Tracking Details,Home page to tracking details page,1.81
+Tracking Details,Tracking list to tracking details page,13.87
+Tracking Details,Detail Tab - Shipment Information,2.54
+Tracking Details,Detail Tab - Location,2.52
+Tracking Details,Detail Tab - Event,2.54
+Tracking Details,Detail Tab - Alerts,2.52
+Tracking Details,Detail Tab - Documents,1.16
+,,
+Feature,Pages,18 Mar (seconds)
+Global Search,Exact search using key reference number (US10020996682),6.67
+Global Search,Partial string search using key reference number (US100),26.5
+Global Search,Global Search from Home Page (us100),7.9
+Global Search,Search from Tracking List (us100),20.74
+,,
+Feature,Pages,18 Mar (seconds)
+Show Filters,Application of certain filter in the home page,7.11
+Show Filters,Application of certain filter in the tracking list page,4.53
+Show Filters,Applying saved filter (Home to TrackingList round-trip),4.98
+,,
+Feature,Pages,18 Mar (seconds)
+Clear filter,Show Filter sidebar open (Home),1.49
+Clear filter,Show Filter sidebar open (Tracking List),1.77
+Clear filter,Settings icon to saved filters panel (Home),2.11
+Clear filter,Settings icon to saved filters panel (Tracking List),2.28
+,,
+Feature,Pages,18 Mar (seconds)
+Home to Tracking List Round-Trip,Home Page Load (initial),2.12
+Home to Tracking List Round-Trip,Home to Tracking List,5.38
+Home to Tracking List Round-Trip,Show Filters to sidebar open,1.61
+Home to Tracking List Round-Trip,Settings to saved filters panel,2.34
+Home to Tracking List Round-Trip,Filter Apply to data loaded,4.98
+Home to Tracking List Round-Trip,Tracking List to Home (filtered),7.25
+Home to Tracking List Round-Trip,Home to Tracking List (return trip),4.89
+Home to Tracking List Round-Trip,TOTAL ROUND-TRIP TIME,28.58
+,,
+Feature,Pages,18 Mar (seconds)
+Transport Tabs (Home Page),Ocean,4.94
+Transport Tabs (Home Page),Air,0.21
+Transport Tabs (Home Page),Rail,2.15
+Transport Tabs (Home Page),Road,1.99
+Transport Tabs (Home Page),Map Toggle (Origin to Destination),5
+,,
+Feature,Pages,18 Mar (seconds)
+Transport Tabs (Post-Filter),Ocean,4.54
+Transport Tabs (Post-Filter),Air,0.21
+Transport Tabs (Post-Filter),Rail,1.99
+Transport Tabs (Post-Filter),Road,1.95
+Transport Tabs (Post-Filter),Map Toggle (Post-Filter Destination),4.76
+,,
+Feature,Pages,18 Mar (seconds)
+Tracking List Filter Tabs (Post-Filter),All shipment,1.71
+Tracking List Filter Tabs (Post-Filter),Not started,1.87
+Tracking List Filter Tabs (Post-Filter),In transit,2.17
+Tracking List Filter Tabs (Post-Filter),Arrived,7.66
+Tracking List Filter Tabs (Post-Filter),Inactive shipments,3.8
+Tracking List Filter Tabs (Post-Filter),Document only,1.11
+Tracking List Filter Tabs (Post-Filter),Live Track pending,1.03
+,,
+Feature,Pages,18 Mar (seconds)
+Test Execution Info,Environment,stage.itt.bdpsmart.com
+Test Execution Info,Browser,Firefox (performance-firefox)
+Test Execution Info,Test Date,2026-03-18
+Test Execution Info,Report Generated From,Existing JSON files (no re-run)
+Test JSON Sources,Test 1 - Home - Tracking List Filter Perf,home-tracking-filter-perf-2026-03-17T21-07-55.json
+Test JSON Sources,Test 2 - Global Search - Shipment Details,global-search-details-perf-2026-03-17T21-09-53.json
+Test JSON Sources,Test 3 - Tracking List Filter Performance,tracking-list-filter-2026-03-17T21-11-31.json
+Test JSON Sources,Test 4 - Filter Performance (Home Page),filter-perf-2026-03-17T21-13-15.json
+Test JSON Sources,Test 5 - Home Page Timing,home-page-perf-2026-03-17T21-15-00.json
+Test JSON Sources,Test 6 - Tracking List Tab Perf,tracking-list-perf-2026-03-17T21-17-37.json

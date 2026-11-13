@@ -1,0 +1,166 @@
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                             GLOBAL SEARCH → SHIPMENT DETAILS PERFORMANCE REPORT                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  Timestamp : 2026-03-05T11:01:35.411Z                                                                        ║
+║  Browser   : chromium                                                                                        ║
+║  Duration  : 81.2s                                                                                           ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 1. HOME PAGE LOAD ──                                                                                     ║
+║  🔴 Page load time       :   8357ms                                                                          ║
+║    Network idle time   :   7926ms                                                                            ║
+║    API calls           :     54                                                                              ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                            ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ✅ GET         200         3ms  https://test.itt.bdpsmart.com/assets/config.json                             ║
+║  ✅ POST        200         3ms  …099921&tid=UA-93461466-1&_gid=1572799795.1772708415&_slc=1&z=1057236255     ║
+║  ✅ GET         200        19ms  https://test.itt.bdpsmart.com/assets/config.json                             ║
+║  ✅ POST        200        48ms  …099921&tid=UA-93461466-1&_gid=1572799795.1772708415&_slc=1&z=1591555831     ║
+║  ✅ POST        200       149ms  https://testlogin.bdpsmart.com/oauth/token                                   ║
+║  ✅ GET         200       360ms  https://test.itt.bdpsmart.com/api/v1/user-profile/user-config                ║
+║  ✅ GET         200       405ms  https://hubtest.bdpsmart.com/portal-api/api/v1/user/getUser                  ║
+║  ✅ GET         200       443ms  https://hubtest.bdpsmart.com/portal-api/api/app/v1/isPwdExpired              ║
+║  ✅ GET         200       360ms  https://hubtest.bdpsmart.com/portal-api/api/app/v1/get-all-apps              ║
+║  ✅ GET         200       394ms  https://test.itt.bdpsmart.com/api/v1/user-profile/user-config                ║
+║  ✅ GET         200       581ms  https://test.itt.bdpsmart.com/api/v1/user-profile/companies/dropdown         ║
+║  ✅ GET         200       146ms  https://test.itt.bdpsmart.com/assets/i18n/en.json                            ║
+║  ✅ GET         200       287ms  https://test.itt.bdpsmart.com/api/v1/user-profile/key-references             ║
+║  ✅ GET         200       360ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ... and 39 more API calls                                                                                   ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 2. GLOBAL SEARCH — "US10020996682" ──                                                                    ║
+║  🔴 Total search + nav time :   8520ms                                                                       ║
+║    Network idle time     :   2009ms                                                                          ║
+║    API calls fired       :     21                                                                            ║
+║    Total API time        :  11001ms                                                                          ║
+║    Slowest API           :   5873ms                                                                          ║
+║    Result page URL       : https://test.itt.bdpsmart.com/#/tracking-list-details/405738?search=US10020996682 ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                            ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ✅ GET         200      5873ms  …t.itt.bdpsmart.com/api/v1/common/global-search?searchText=US10020996682     ║
+║  ✅ GET         200        73ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200       511ms  …t.itt.bdpsmart.com/api/v1/tracking-details/header?transportLegId=405738     ║
+║  ✅ GET         200       511ms  …pi/v1/tracking-details/shipment-info/general-info?transportLegId=405738     ║
+║  ✅ GET         200       512ms  …om/api/v1/tracking-details/event/event-milestones?transportLegId=405738     ║
+║  ✅ GET         200       512ms  …v1/tracking-details/shipment-info/eta-information?transportLegId=405738     ║
+║  ✅ GET         200      1290ms  …itt.bdpsmart.com/api/v1/tracking-details/timeline?transportLegId=405738     ║
+║  ✅ GET         200      1365ms  …v1/tracking-details/location/location-information?transportLegId=405738     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         1ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         1ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200       176ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ... and 1 more API calls                                                                                    ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 3. SHIPMENT DETAILS PAGE — "US10020996682" ──                                                            ║
+║  🟢 Navigation time        :   1798ms                                                                        ║
+║    Data visible time     :    283ms                                                                          ║
+║    Network idle time     :   1798ms                                                                          ║
+║    API calls fired       :     12                                                                            ║
+║    Total API time        :    153ms                                                                          ║
+║    Slowest API           :     43ms                                                                          ║
+║    Page URL              : https://test.itt.bdpsmart.com/#/tracking-list-details/405738?search=US10020996682 ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                            ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ✅ POST        204         3ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200        34ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200        43ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200        43ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200        12ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200        12ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         1ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         5ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         0ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 4. DETAIL PAGE TABS ──                                                                                   ║
+║  TAB                         SWITCH   DATA LOAD   APIs   TOTAL API    SLOWEST  RATING                        ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🔴 Shipment Information       796ms      2530ms      0         0ms        0ms                               ║
+║  🔴 Location                    60ms      2701ms      0         0ms        0ms                               ║
+║  🔴 Event                      141ms      2525ms      0         0ms        0ms                               ║
+║  🔴 Alerts                      62ms      2525ms      0         0ms        0ms                               ║
+║  🔴 Documents                   67ms      2542ms      2      1224ms      761ms                               ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 5. SHIPMENT INFORMATION — DROPDOWN/ACCORDION SECTIONS ──                                                 ║
+║  SECTION                         EXPAND TIME    EXPANDED   APIs  RATING                                      ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🔴 General Information                3059ms         YES      1                                             ║
+║  🔴 Transport Information              3117ms         YES      1                                             ║
+║  🔴 Current Location                   3051ms         YES      1                                             ║
+║  🔴 Co2 Emissions                      2961ms         YES      1                                             ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 6. NAVIGATE BACK TO HOME ──                                                                              ║
+║  🟢 Navigation time :   1624ms                                                                               ║
+║    API calls          :      8                                                                               ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 7. GLOBAL SEARCH — "US100" ──                                                                            ║
+║  🔴 Total search + nav time :  26623ms                                                                       ║
+║    Network idle time     :   3016ms                                                                          ║
+║    API calls fired       :      8                                                                            ║
+║    Total API time        :  18816ms                                                                          ║
+║    Slowest API           :  12604ms                                                                          ║
+║    Result page URL       : https://test.itt.bdpsmart.com/#/tracking-list?globalSearch=US100                  ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                            ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ✅ GET         200         1ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200         2ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ POST        204        12ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200        15ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200        55ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200      5860ms  …ps://test.itt.bdpsmart.com/api/v1/common/global-search?searchText=US100     ║
+║  ✅ GET         200       267ms  …ps://test.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting     ║
+║  ✅ POST        200     12604ms  ….itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list     ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── AGGREGATE API STATISTICS ──                                                                              ║
+║  Total API calls   :    109                                                                                  ║
+║  Failed calls      :      3                                                                                  ║
+║  Slow calls (>1s)  :      7                                                                                  ║
+║  Min response      :      0ms                                                                                ║
+║  Avg response      :    410ms                                                                                ║
+║  P50 response      :      2ms                                                                                ║
+║  P90 response      :    512ms                                                                                ║
+║  P99 response      :   5873ms                                                                                ║
+║  Max response      :  12604ms                                                                                ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── MEMORY SNAPSHOTS ──                                                                                      ║
+║  STAGE                                               USED       TOTAL                                        ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  After Home Page Load (Baseline)                  44.89 MB     98.79 MB                                      ║
+║  After Search "US10020996682"                     75.11 MB    131.30 MB                                      ║
+║  After Detail Tab Clicks                          38.65 MB     40.90 MB                                      ║
+║  After Section Expands                            37.01 MB     45.44 MB                                      ║
+║  After Search "US100"                             49.08 MB     53.82 MB                                      ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── CONSOLE ERRORS (5) ──                                                                                    ║
+║  ❌ Failed to load resource: the server responded with a status of 500 ()                                     ║
+║  ❌ Failed to load resource: the server responded with a status of 500 ()                                     ║
+║  ❌ ERROR TypeError: Cannot read properties of null (reading 'data')
+    at Object.next (https://test.itt.bd  ║
+║  ❌ Failed to load resource: the server responded with a status of 500 ()                                     ║
+║  ❌ ❌ Failed to load CO2 emissions: E                                                                         ║
+║                                                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,100 @@
+Module,Method,URL,Status,DurationMs
+INITIAL_LOAD,GET,https://sdmstage.bdpsmart.com/api/ui/me,401,13
+INITIAL_LOAD,GET,https://sdmstage.bdpsmart.com/api/ui/config,401,17
+INITIAL_LOAD,GET,https://sdmstage.bdpsmart.com/api/ui/config,200,10
+INITIAL_LOAD,GET,https://sdmstage.bdpsmart.com/api/ui/me,200,701
+INITIAL_LOAD,GET,https://sdmstage.bdpsmart.com/api/ui/me/companies,200,1
+INITIAL_LOAD,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/filters/companies,200,1
+INITIAL_LOAD,GET,https://sdmstage.bdpsmart.com/api/ui/modulefilter/saved-filters/default-filter?moduleName=ARRIVAL,204,2
+INITIAL_LOAD,GET,https://sdmstage.bdpsmart.com/api/ui/ump-app-list,200,1539
+INITIAL_LOAD,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/shipments/grid,200,237
+INITIAL_LOAD,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/shipments/grid,200,237
+INITIAL_LOAD,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/shipments/cards/summary,200,237
+INITIAL_LOAD,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,238
+INITIAL_LOAD,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,238
+In Transit,GET,https://sdmstage.bdpsmart.com/api/ui/config,200,5
+In Transit,GET,https://sdmstage.bdpsmart.com/api/ui/me,200,399
+In Transit,GET,https://sdmstage.bdpsmart.com/api/ui/me/companies,200,696
+In Transit,GET,https://sdmstage.bdpsmart.com/api/ui/modulefilter/saved-filters/default-filter?moduleName=ARRIVAL,204,79
+In Transit,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,78
+In Transit,GET,https://sdmstage.bdpsmart.com/api/ui/ump-app-list,200,698
+In Transit,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,828
+In Transit,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/filters/companies,200,47
+In Transit,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/shipments/grid,200,47
+In Transit,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/shipments/grid,200,48
+In Transit,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/shipments/cards/summary,200,48
+Upcoming Shipments,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/filters/companies,200,747
+Upcoming Shipments,GET,https://sdmstage.bdpsmart.com/api/ui/modulefilter/saved-filters/default-filter?moduleName=CARRIER_RELEASE,204,2
+Upcoming Shipments,POST,https://sdmstage.bdpsmart.com/api/ui/carrier-release/kpi-indicators,200,3
+Upcoming Shipments,POST,https://sdmstage.bdpsmart.com/api/ui/carrier-release/search,200,4
+Upcoming Shipments,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,4
+Incomplete Documents,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Incomplete Documents,POST,https://sdmstage.bdpsmart.com/api/ui/carrier-release/search,200,532
+Request Pending Auto,POST,https://sdmstage.bdpsmart.com/api/ui/carrier-release/search,200,386
+Request Pending Auto,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Request Pending Manual,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Request Pending Manual,POST,https://sdmstage.bdpsmart.com/api/ui/carrier-release/search,200,561
+Authorization Pending,GET,https://sdmstage.bdpsmart.com/api/ui/carrier-release/ai-assistant/counts,200,319
+Authorization Pending,POST,https://sdmstage.bdpsmart.com/api/ui/carrier-release/search,200,452
+Authorization Pending,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,135
+Authorised,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,82
+Authorised,POST,https://sdmstage.bdpsmart.com/api/ui/carrier-release/container/search,200,588
+Upcoming Shipments (Customs),POST,https://sdmstage.bdpsmart.com/api/ui/arrival/filters/companies,200,538
+Upcoming Shipments (Customs),GET,https://sdmstage.bdpsmart.com/api/ui/modulefilter/saved-filters/default-filter?moduleName=CUSTOMS_DECLARATION,204,478
+Upcoming Shipments (Customs),POST,https://sdmstage.bdpsmart.com/api/ui/carrier-release/kpi-indicators,200,64
+Upcoming Shipments (Customs),POST,https://sdmstage.bdpsmart.com/api/ui/customs-declaration/search,200,64
+Upcoming Shipments (Customs),POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,65
+Incomplete Documents (Customs),POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,98
+Incomplete Documents (Customs),POST,https://sdmstage.bdpsmart.com/api/ui/customs-declaration/search,200,424
+Incomplete Documents (Customs),POST,https://sdmstage.bdpsmart.com/api/ui/set-preference,200,385
+Request Pending,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,100
+Request Pending,POST,https://sdmstage.bdpsmart.com/api/ui/customs-declaration/search,200,405
+Request Pending,POST,https://sdmstage.bdpsmart.com/api/ui/set-preference,200,436
+Request Submitted,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,113
+Request Submitted,POST,https://sdmstage.bdpsmart.com/api/ui/customs-declaration/search,200,368
+Request Submitted,POST,https://sdmstage.bdpsmart.com/api/ui/set-preference,200,304
+Pending Clearance,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Pending Clearance,POST,https://sdmstage.bdpsmart.com/api/ui/customs-declaration/search,200,542
+Pending Clearance,POST,https://sdmstage.bdpsmart.com/api/ui/set-preference,200,118
+Clearance Completed,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,113
+Clearance Completed,POST,https://sdmstage.bdpsmart.com/api/ui/customs-declaration/container/search,200,396
+Clearance Completed,POST,https://sdmstage.bdpsmart.com/api/ui/set-preference,200,249
+Pre-Arrival,POST,https://sdmstage.bdpsmart.com/api/ui/arrival/filters/companies,200,703
+Pre-Arrival,GET,https://sdmstage.bdpsmart.com/api/ui/modulefilter/saved-filters/default-filter?moduleName=DELIVERY,204,1
+Pre-Arrival,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,11
+Pre-Arrival,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/pre-arrival/shipments/grid?forecastDays=60,200,1241
+Pre-Arrival,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/v2/kpi-indicators,200,2448
+Ready to Plan,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Ready to Plan,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/ready-to-plan/search,200,975
+Draft,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/plans/search,200,1
+Draft,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,220
+Awaiting Confirmation,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/plans/search,200,0
+Awaiting Confirmation,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,226
+Confirmed,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/plans/search,200,0
+Confirmed,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,140
+Revised,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/plans/search,200,41
+Revised,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,43
+Finalised,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Finalised,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/plans/search,200,24
+Sent,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/v2/search,200,0
+Sent,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,1
+Sent,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/legs,200,82
+Accepted,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Accepted,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/v2/search,200,148
+Accepted,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/legs,200,98
+Rejected,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Rejected,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/v2/search,200,107
+Rejected,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/legs,200,1
+Cancelled,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,0
+Cancelled,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/v2/search,200,104
+Cancelled,POST,https://sdmstage.bdpsmart.com/api/ui/delivery-booking/legs,200,46
+In Progress,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/execution/search,200,1
+In Progress,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,418
+Overdue,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/execution/search,200,0
+Overdue,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,401
+Completed,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/execution/search,200,0
+Completed,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,376
+Awaiting Return,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/empty-return/search,200,0
+Awaiting Return,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,521
+Returned,POST,https://sdmstage.bdpsmart.com/api/ui/delivery/empty-return/search,200,0
+Returned,POST,https://sdmstage.bdpsmart.com/api/ui/get-preference,200,223

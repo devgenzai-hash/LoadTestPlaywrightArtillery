@@ -1,0 +1,243 @@
+{
+  "testName": "Home ↔ Tracking List Filter Performance",
+  "timestamp": "2026-04-02T14:10:16.196Z",
+  "durationMs": 134638,
+  "browser": "firefox",
+  "loginToHomeMs": 20945,
+  "homePageLoadMs": 2157,
+  "homePageApiCalls": [],
+  "homePageNavTiming": {
+    "dnsLookup": 0.09999999999990905,
+    "tcpConnection": 30.319999999999936,
+    "tlsNegotiation": 19.940000000000055,
+    "serverResponseTime": 8.579999999999927,
+    "domContentLoaded": 2030.84,
+    "domInteractive": 1319.84,
+    "domComplete": 2032.02,
+    "pageLoad": 2034.58
+  },
+  "homeToTrackingListMs": 7088,
+  "trackingListPageLoadMs": 7088,
+  "trackingListApiCalls": [
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 467,
+      "resourceType": "xhr",
+      "timestamp": 1775138903081
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 482,
+      "resourceType": "xhr",
+      "timestamp": 1775138903096
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 2657,
+      "resourceType": "xhr",
+      "timestamp": 1775138904117
+    }
+  ],
+  "showFilterClickMs": 8194,
+  "settingsIconClickMs": 27834,
+  "filterApplyMs": 0,
+  "filterDataLoadMs": 0,
+  "filterApiCalls": [],
+  "filterSlowestApiMs": 0,
+  "filterSlowestApiUrl": "N/A",
+  "trackingListToHomeMs": 32625,
+  "homeAfterFilterLoadMs": 32625,
+  "homeAfterFilterApiCalls": [
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/show-filter/ports",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 564,
+      "resourceType": "xhr",
+      "timestamp": 1775138996830
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/show-filter/countries",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 570,
+      "resourceType": "xhr",
+      "timestamp": 1775138996830
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 2366,
+      "resourceType": "xhr",
+      "timestamp": 1775138996642
+    },
+    {
+      "url": "https://hubtest.bdpsmart.com/portal-api/api/v1/user/getUser",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 901,
+      "resourceType": "xhr",
+      "timestamp": 1775139000574
+    },
+    {
+      "url": "https://hubtest.bdpsmart.com/portal-api/api/app/v1/isPwdExpired",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 927,
+      "resourceType": "xhr",
+      "timestamp": 1775139000594
+    },
+    {
+      "url": "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139001857
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 448,
+      "resourceType": "xhr",
+      "timestamp": 1775139001664
+    },
+    {
+      "url": "https://api.mapbox.com/v4/mapbox.satellite.json?secure&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139002201
+    },
+    {
+      "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8.json?secure&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139002211
+    },
+    {
+      "url": "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/sprite.json?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139002227
+    },
+    {
+      "url": "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/sprite.png?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139002235
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/home/kpi",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 948,
+      "resourceType": "xhr",
+      "timestamp": 1775139001691
+    },
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Pro%20Italic,Arial%20Unicode%20MS%20Regular/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139005421
+    },
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Pro%20Medium,Arial%20Unicode%20MS%20Regular/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139005421
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/home/map-data",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 4444,
+      "resourceType": "xhr",
+      "timestamp": 1775139001815
+    },
+    {
+      "url": "https://events.mapbox.com/events/v2?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "POST",
+      "status": 204,
+      "durationMs": 98,
+      "resourceType": "fetch",
+      "timestamp": 1775139006391
+    },
+    {
+      "url": "https://api.mapbox.com/map-sessions/v1?sku=101a4bWzroSS7&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1775139006674
+    },
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Offc%20Pro%20Bold,Arial%20Unicode%20MS%20Bold,DIN%20Offc%20Pro%20Medium/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 2,
+      "resourceType": "fetch",
+      "timestamp": 1775139007188
+    }
+  ],
+  "homeToTrackingListReturnMs": 5311,
+  "trackingListReturnLoadMs": 5311,
+  "trackingListReturnApiCalls": [
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 321,
+      "resourceType": "xhr",
+      "timestamp": 1775139011366
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 592,
+      "resourceType": "xhr",
+      "timestamp": 1775139011351
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 1744,
+      "resourceType": "xhr",
+      "timestamp": 1775139011857
+    }
+  ],
+  "apiSummary": {
+    "totalCalls": 24,
+    "failedCalls": 0,
+    "avgResponseMs": 730,
+    "p50Ms": 467,
+    "p90Ms": 2366,
+    "p99Ms": 4444,
+    "maxMs": 4444,
+    "minMs": 0,
+    "slowCalls": 4
+  },
+  "memorySnapshots": [],
+  "consoleErrors": []
+}

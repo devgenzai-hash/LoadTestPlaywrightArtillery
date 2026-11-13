@@ -1,0 +1,277 @@
+{
+  "testName": "Home ↔ Tracking List Filter Performance",
+  "timestamp": "2026-04-13T12:42:49.094Z",
+  "durationMs": 44699,
+  "browser": "firefox",
+  "loginToHomeMs": 15899,
+  "homePageLoadMs": 3125,
+  "homePageApiCalls": [
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Pro%20Italic,Arial%20Unicode%20MS%20Regular/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 15,
+      "resourceType": "fetch",
+      "timestamp": 1776084138434
+    },
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Pro%20Medium,Arial%20Unicode%20MS%20Regular/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 1,
+      "resourceType": "fetch",
+      "timestamp": 1776084138448
+    },
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Offc%20Pro%20Bold,Arial%20Unicode%20MS%20Bold,DIN%20Offc%20Pro%20Medium/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 5,
+      "resourceType": "fetch",
+      "timestamp": 1776084139450
+    },
+    {
+      "url": "https://events.mapbox.com/events/v2?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "POST",
+      "status": 204,
+      "durationMs": 70,
+      "resourceType": "fetch",
+      "timestamp": 1776084139621
+    },
+    {
+      "url": "https://api.mapbox.com/map-sessions/v1?sku=101PNaf7Yhhig&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 19,
+      "resourceType": "fetch",
+      "timestamp": 1776084139716
+    }
+  ],
+  "homePageNavTiming": {
+    "dnsLookup": 0.09999999999990905,
+    "tcpConnection": 22.339999999999918,
+    "tlsNegotiation": 12.579999999999927,
+    "serverResponseTime": 8.400000000000091,
+    "domContentLoaded": 1744.24,
+    "domInteractive": 1209.6,
+    "domComplete": 1746.66,
+    "pageLoad": 1747.46
+  },
+  "homeToTrackingListMs": 6957,
+  "trackingListPageLoadMs": 6957,
+  "trackingListApiCalls": [
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 331,
+      "resourceType": "xhr",
+      "timestamp": 1776084141237
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 394,
+      "resourceType": "xhr",
+      "timestamp": 1776084141237
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 2040,
+      "resourceType": "xhr",
+      "timestamp": 1776084141895
+    }
+  ],
+  "showFilterClickMs": 2281,
+  "settingsIconClickMs": 2251,
+  "filterApplyMs": 683,
+  "filterDataLoadMs": 4252,
+  "filterApiCalls": [
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/show-filter/countries",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 481,
+      "resourceType": "xhr",
+      "timestamp": 1776084153995
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 883,
+      "resourceType": "xhr",
+      "timestamp": 1776084153991
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/show-filter/ports",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 1034,
+      "resourceType": "xhr",
+      "timestamp": 1776084154024
+    }
+  ],
+  "filterSlowestApiMs": 1034,
+  "filterSlowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/show-filter/ports",
+  "trackingListToHomeMs": 6169,
+  "homeAfterFilterLoadMs": 6169,
+  "homeAfterFilterApiCalls": [
+    {
+      "url": "https://hubtest.bdpsmart.com/portal-api/api/v1/user/getUser",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 412,
+      "resourceType": "xhr",
+      "timestamp": 1776084158304
+    },
+    {
+      "url": "https://hubtest.bdpsmart.com/portal-api/api/app/v1/isPwdExpired",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 410,
+      "resourceType": "xhr",
+      "timestamp": 1776084158354
+    },
+    {
+      "url": "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 1,
+      "resourceType": "fetch",
+      "timestamp": 1776084159311
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 286,
+      "resourceType": "xhr",
+      "timestamp": 1776084159043
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/home/kpi",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 577,
+      "resourceType": "xhr",
+      "timestamp": 1776084159044
+    },
+    {
+      "url": "https://api.mapbox.com/v4/mapbox.satellite.json?secure&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 1,
+      "resourceType": "fetch",
+      "timestamp": 1776084160204
+    },
+    {
+      "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8.json?secure&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1776084160260
+    },
+    {
+      "url": "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/sprite.json?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1776084160340
+    },
+    {
+      "url": "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/sprite.png?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1776084160341
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/home/map-data",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 1238,
+      "resourceType": "xhr",
+      "timestamp": 1776084159244
+    },
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Pro%20Italic,Arial%20Unicode%20MS%20Regular/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1776084162826
+    },
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Pro%20Medium,Arial%20Unicode%20MS%20Regular/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1776084162830
+    },
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Offc%20Pro%20Bold,Arial%20Unicode%20MS%20Bold,DIN%20Offc%20Pro%20Medium/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 0,
+      "resourceType": "fetch",
+      "timestamp": 1776084163837
+    }
+  ],
+  "homeToTrackingListReturnMs": 4692,
+  "trackingListReturnLoadMs": 4692,
+  "trackingListReturnApiCalls": [
+    {
+      "url": "https://api.mapbox.com/map-sessions/v1?sku=101QMZOhqixFr&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 6,
+      "resourceType": "fetch",
+      "timestamp": 1776084164412
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 373,
+      "resourceType": "xhr",
+      "timestamp": 1776084164835
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 332,
+      "resourceType": "xhr",
+      "timestamp": 1776084164916
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 863,
+      "resourceType": "xhr",
+      "timestamp": 1776084165304
+    }
+  ],
+  "apiSummary": {
+    "totalCalls": 28,
+    "failedCalls": 0,
+    "avgResponseMs": 349,
+    "p50Ms": 286,
+    "p90Ms": 1034,
+    "p99Ms": 2040,
+    "maxMs": 2040,
+    "minMs": 0,
+    "slowCalls": 3
+  },
+  "memorySnapshots": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,118 @@
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                             GLOBAL SEARCH → SHIPMENT DETAILS PERFORMANCE REPORT                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  Timestamp : 2026-03-09T15:57:20.703Z                                                                        ║
+║  Browser   : chromium                                                                                        ║
+║  Duration  : 180.1s                                                                                          ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 1. HOME PAGE LOAD ──                                                                                     ║
+║  🟢 Page load time       :   1524ms                                                                          ║
+║    Network idle time   :   1512ms                                                                            ║
+║    API calls           :      0                                                                              ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 2. GLOBAL SEARCH — "US10020996682" ──                                                                    ║
+║  🔴 Total search + nav time :   5361ms                                                                       ║
+║    Network idle time     :   2443ms                                                                          ║
+║    API calls fired       :      7                                                                            ║
+║    Total API time        :   9530ms                                                                          ║
+║    Slowest API           :   3177ms                                                                          ║
+║    Result page URL       : https://stage.itt.bdpsmart.com/#/home                                             ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                            ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ❌ GET         401      2144ms  …e.itt.bdpsmart.com/api/v1/common/global-search?searchText=US10020996682     ║
+║  ✅ POST        200      2734ms  https://stage.itt.bdpsmart.com/api/v1/home/kpi                               ║
+║  ✅ POST        200      3177ms  https://stage.itt.bdpsmart.com/api/v1/home/map-data                          ║
+║  ✅ GET         200       368ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200       369ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200       369ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║  ✅ GET         200       369ms  …I5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w     ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 3. SHIPMENT DETAILS PAGE — "US10020996682" ──                                                            ║
+║  🔴 Navigation time        :  30034ms                                                                        ║
+║    Data visible time     :      0ms                                                                          ║
+║    Network idle time     :  30034ms                                                                          ║
+║    API calls fired       :      1                                                                            ║
+║    Total API time        :   1926ms                                                                          ║
+║    Slowest API           :   1926ms                                                                          ║
+║    Page URL              : https://stage.itt.bdpsmart.com/#/home                                             ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                            ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ❌ GET         401      1926ms  …e.itt.bdpsmart.com/api/v1/common/global-search?searchText=US10020996682     ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 4. DETAIL PAGE TABS ──                                                                                   ║
+║  TAB                         SWITCH   DATA LOAD   APIs   TOTAL API    SLOWEST  RATING                        ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🔴 Shipment Information     10037ms      2538ms      0         0ms        0ms                               ║
+║  🔴 Location                 10026ms      2526ms      0         0ms        0ms                               ║
+║  🔴 Event                    10038ms      2519ms      0         0ms        0ms                               ║
+║  🔴 Alerts                   10019ms      2512ms      0         0ms        0ms                               ║
+║  🔴 Documents                10100ms      2524ms      0         0ms        0ms                               ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 5. SHIPMENT INFORMATION — DROPDOWN/ACCORDION SECTIONS ──                                                 ║
+║  SECTION                         EXPAND TIME    EXPANDED   APIs  RATING                                      ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🟢 General Information                  21ms          NO      0                                             ║
+║  🟢 Transport Information                14ms          NO      0                                             ║
+║  🟢 Current Location                     23ms          NO      0                                             ║
+║  🟢 Co2 Emissions                        19ms          NO      0                                             ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 6. NAVIGATE BACK TO HOME ──                                                                              ║
+║  🟢 Navigation time :   1699ms                                                                               ║
+║    API calls          :      0                                                                               ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── 7. GLOBAL SEARCH — "US100" ──                                                                            ║
+║  🔴 Total search + nav time :  64089ms                                                                       ║
+║    Network idle time     :   3013ms                                                                          ║
+║    API calls fired       :      4                                                                            ║
+║    Total API time        :   2549ms                                                                          ║
+║    Slowest API           :   1044ms                                                                          ║
+║    Result page URL       : https://stage.itt.bdpsmart.com/#/home                                             ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                            ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ❌ GET         401       514ms  …s://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=US100     ║
+║  ❌ GET         401      1044ms  …s://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=US100     ║
+║  ❌ GET         401       484ms  …s://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=US100     ║
+║  ❌ GET         401       507ms  …s://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=US009     ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── AGGREGATE API STATISTICS ──                                                                              ║
+║  Total API calls   :     12                                                                                  ║
+║  Failed calls      :      6                                                                                  ║
+║  Slow calls (>1s)  :      5                                                                                  ║
+║  Min response      :    368ms                                                                                ║
+║  Avg response      :   1167ms                                                                                ║
+║  P50 response      :    514ms                                                                                ║
+║  P90 response      :   2734ms                                                                                ║
+║  P99 response      :   3177ms                                                                                ║
+║  Max response      :   3177ms                                                                                ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── MEMORY SNAPSHOTS ──                                                                                      ║
+║  STAGE                                               USED       TOTAL                                        ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  After Home Page Load (Baseline)                  49.31 MB     79.51 MB                                      ║
+║  After Search "US10020996682"                     57.53 MB     82.92 MB                                      ║
+║  After Detail Tab Clicks                          38.18 MB     41.95 MB                                      ║
+║  After Section Expands                            39.15 MB     42.70 MB                                      ║
+║  After Search "US100"                             33.91 MB     40.45 MB                                      ║
+║                                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── CONSOLE ERRORS (6) ──                                                                                    ║
+║  ❌ Failed to load resource: the server responded with a status of 401 ()                                     ║
+║  ❌ Failed to load resource: the server responded with a status of 401 ()                                     ║
+║  ❌ Failed to load resource: the server responded with a status of 401 ()                                     ║
+║  ❌ Failed to load resource: the server responded with a status of 401 ()                                     ║
+║  ❌ Failed to load resource: the server responded with a status of 401 ()                                     ║
+║  ❌ Failed to load resource: the server responded with a status of 401 ()                                     ║
+║                                                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════╝

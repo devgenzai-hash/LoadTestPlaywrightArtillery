@@ -1,0 +1,137 @@
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                TRACKING LIST TAB PERFORMANCE REPORT                                ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  Timestamp : 2026-03-16T20:36:05.121Z                                                              ║
+║  Browser   : chromium                                                                              ║
+║  Duration  : 196.8s                                                                                ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── NAVIGATION TO TRACKING LIST ──                                                                 ║
+║  🟡 Total navigation time :   2067ms                                                               ║
+║    API calls during nav :      1                                                                   ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                  ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  GET         200       523ms  …ge.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting    ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── FIRST VISIT — TAB PERFORMANCE ──                                                               ║
+║  TAB                      SWITCH   DATA LOAD    NET IDLE    ROWS   APIs    SLOWEST  RATING         ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🔴 All Shipments          8013ms     13940ms       807ms      10      1    13184ms                ║
+║  🔴 Not Started             355ms      8946ms       815ms      10      1     8437ms                ║
+║  🔴 In Transit              309ms      9215ms       858ms      10      1     8603ms                ║
+║  🔴 Arrived                 142ms     11104ms       942ms      10      1    10255ms                ║
+║  🔴 Document Only            89ms      8985ms       820ms       1      1     8190ms                ║
+║  🔴 Live Track Pending      261ms      9210ms       832ms       1      1     8514ms                ║
+║  🔴 Inactive Shipments      223ms      8798ms       810ms       1      1     8141ms                ║
+║  Average data load (first visit) :  10028ms                                                        ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── REVISIT — TAB PERFORMANCE (WARM CACHE) ──                                                      ║
+║  TAB                      SWITCH   DATA LOAD    NET IDLE    ROWS   APIs    SLOWEST  RATING         ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🔴 All Shipments           236ms     13946ms       835ms      10      1    13295ms                ║
+║  🔴 Not Started              41ms      9241ms       865ms      10      1     8378ms                ║
+║  🔴 In Transit              252ms      9353ms       815ms      10      1     8743ms                ║
+║  🔴 Arrived                 313ms     10832ms       813ms      10      1    10019ms                ║
+║  🔴 Document Only           112ms      8991ms       819ms       1      1     8230ms                ║
+║  🔴 Live Track Pending       48ms      9469ms       807ms       1      1     8663ms                ║
+║  🔴 Inactive Shipments      203ms      8886ms       840ms       1      1     8194ms                ║
+║  Average data load (revisit)     :  10103ms                                                        ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── COLD vs WARM COMPARISON ──                                                                     ║
+║  TAB                     1st VISIT     REVISIT   IMPROVEMENT                                       ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ═ All Shipments           13940ms     13946ms           0%                                        ║
+║  ⬆ Not Started              8946ms      9241ms          -3%                                        ║
+║  ⬆ In Transit               9215ms      9353ms          -1%                                        ║
+║  ⬇ Arrived                 11104ms     10832ms           2%                                        ║
+║  ═ Document Only            8985ms      8991ms           0%                                        ║
+║  ⬆ Live Track Pending       9210ms      9469ms          -3%                                        ║
+║  ⬆ Inactive Shipments       8798ms      8886ms          -1%                                        ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── AGGREGATE API STATISTICS ──                                                                    ║
+║  Total API calls   :     16                                                                        ║
+║  Failed calls      :      0                                                                        ║
+║  Slow calls (>1s)  :     15                                                                        ║
+║  Min response      :    523ms                                                                      ║
+║  Avg response      :   8423ms                                                                      ║
+║  P50 response      :   8514ms                                                                      ║
+║  P90 response      :  13184ms                                                                      ║
+║  P99 response      :  13295ms                                                                      ║
+║  Max response      :  13295ms                                                                      ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── PER-TAB API BREAKDOWN (FIRST VISIT) ──                                                         ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 All Shipments  (1 APIs, slowest 13184ms)                                                       ║
+║    ✅ [POST] 13184ms | 200 | …/api/v1/tracking-list/ALL/fetch-shipment-tracking-list                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Not Started  (1 APIs, slowest 8437ms)                                                          ║
+║    ✅ [POST]  8437ms | 200 | …tracking-list/NOT_STARTED/fetch-shipment-tracking-list                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 In Transit  (1 APIs, slowest 8603ms)                                                           ║
+║    ✅ [POST]  8603ms | 200 | …/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Arrived  (1 APIs, slowest 10255ms)                                                             ║
+║    ✅ [POST] 10255ms | 200 | …/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Document Only  (1 APIs, slowest 8190ms)                                                        ║
+║    ✅ [POST]  8190ms | 204 | …v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Live Track Pending  (1 APIs, slowest 8514ms)                                                   ║
+║    ✅ [POST]  8514ms | 204 | …g-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Inactive Shipments  (1 APIs, slowest 8141ms)                                                   ║
+║    ✅ [POST]  8141ms | 204 | …v1/tracking-list/INACTIVE/fetch-shipment-tracking-list                ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── SEARCH PROFILING — "us100" ──                                                                  ║
+║  🔴 Total search time      :  17323ms                                                              ║
+║    Network idle time    :   1012ms                                                                 ║
+║    Result rows returned :     20                                                                   ║
+║    API calls fired      :      1                                                                   ║
+║    Slowest API          :   3394ms                                                                 ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                  ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ✅ GET         200      3394ms  …ge.itt.bdpsmart.com/api/v1/common/global-search?searchText=us100  ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── SHIPMENT DETAIL PAGE NAVIGATION — "EMARG201811047AR" ──                                        ║
+║  🔴 Total navigation time  :  12687ms                                                              ║
+║    Network idle time    :   1518ms                                                                 ║
+║    Total API time       :      0ms                                                                 ║
+║    API calls fired      :      0                                                                   ║
+║    Slowest API          :      0ms                                                                 ║
+║    Page URL             : https://stage.itt.bdpsmart.com/#/tracking-list?globalSearch=us100        ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── MEMORY SNAPSHOTS ──                                                                            ║
+║  STAGE                                          USED       TOTAL                                   ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  After Login (Baseline)                      46.25 MB     79.67 MB                                 ║
+║  After Tracking List Nav                     50.00 MB     80.76 MB                                 ║
+║  After First Visit (all tabs)                32.61 MB     39.81 MB                                 ║
+║  After Revisit (all tabs)                    32.72 MB     38.56 MB                                 ║
+║  After Search + Detail Nav                   38.27 MB     43.13 MB                                 ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── CONSOLE ERRORS (6) ──                                                                          ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://s  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://s  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://s  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://s  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://s  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://s  ║
+║                                                                                                    ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════╝

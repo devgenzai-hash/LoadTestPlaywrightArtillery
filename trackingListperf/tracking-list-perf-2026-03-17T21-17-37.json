@@ -1,0 +1,429 @@
+{
+  "testName": "Tracking List Tab Performance Profiling",
+  "timestamp": "2026-03-17T21:17:37.712Z",
+  "durationMs": 126374,
+  "browser": "firefox",
+  "navigationToTrackingListMs": 3101,
+  "navigationApiCalls": [
+    {
+      "url": "https://api.mapbox.com/fonts/v1/mapbox/DIN%20Offc%20Pro%20Bold,Arial%20Unicode%20MS%20Bold,DIN%20Offc%20Pro%20Medium/0-255.pbf?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 11,
+      "resourceType": "fetch",
+      "timestamp": 1773782144998
+    },
+    {
+      "url": "https://events.mapbox.com/events/v2?access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "POST",
+      "status": 204,
+      "durationMs": 26,
+      "resourceType": "fetch",
+      "timestamp": 1773782145078
+    },
+    {
+      "url": "https://api.mapbox.com/map-sessions/v1?sku=101CE4qTVaI4m&access_token=pk.eyJ1IjoibWFoZW5kcmE5MzI5IiwiYSI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 28,
+      "resourceType": "fetch",
+      "timestamp": 1773782145216
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 391,
+      "resourceType": "xhr",
+      "timestamp": 1773782146012
+    }
+  ],
+  "firstVisit": [
+    {
+      "tabName": "All Shipments",
+      "visit": "first",
+      "switchTimeMs": 1144,
+      "dataLoadTimeMs": 15519,
+      "networkIdleTimeMs": 827,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 14971,
+          "resourceType": "xhr",
+          "timestamp": 1773782148945
+        }
+      ],
+      "totalApiTimeMs": 14971,
+      "slowestApiMs": 14971,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Not Started",
+      "visit": "first",
+      "switchTimeMs": 447,
+      "dataLoadTimeMs": 1167,
+      "networkIdleTimeMs": 827,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 576,
+          "resourceType": "xhr",
+          "timestamp": 1773782164987
+        }
+      ],
+      "totalApiTimeMs": 576,
+      "slowestApiMs": 576,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "In Transit",
+      "visit": "first",
+      "switchTimeMs": 278,
+      "dataLoadTimeMs": 2665,
+      "networkIdleTimeMs": 818,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 1954,
+          "resourceType": "xhr",
+          "timestamp": 1773782166576
+        }
+      ],
+      "totalApiTimeMs": 1954,
+      "slowestApiMs": 1954,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Arrived",
+      "visit": "first",
+      "switchTimeMs": 438,
+      "dataLoadTimeMs": 8747,
+      "networkIdleTimeMs": 805,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8185,
+          "resourceType": "xhr",
+          "timestamp": 1773782169558
+        }
+      ],
+      "totalApiTimeMs": 8185,
+      "slowestApiMs": 8185,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Document Only",
+      "visit": "first",
+      "switchTimeMs": 287,
+      "dataLoadTimeMs": 1307,
+      "networkIdleTimeMs": 809,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 611,
+          "resourceType": "xhr",
+          "timestamp": 1773782178733
+        }
+      ],
+      "totalApiTimeMs": 611,
+      "slowestApiMs": 611,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Live Track Pending",
+      "visit": "first",
+      "switchTimeMs": 374,
+      "dataLoadTimeMs": 1011,
+      "networkIdleTimeMs": 834,
+      "rowCount": 5,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 387,
+          "resourceType": "xhr",
+          "timestamp": 1773782180328
+        }
+      ],
+      "totalApiTimeMs": 387,
+      "slowestApiMs": 387,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Inactive Shipments",
+      "visit": "first",
+      "switchTimeMs": 322,
+      "dataLoadTimeMs": 3671,
+      "networkIdleTimeMs": 840,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 2984,
+          "resourceType": "xhr",
+          "timestamp": 1773782181729
+        }
+      ],
+      "totalApiTimeMs": 2984,
+      "slowestApiMs": 2984,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list"
+    }
+  ],
+  "revisit": [
+    {
+      "tabName": "All Shipments",
+      "visit": "revisit",
+      "switchTimeMs": 250,
+      "dataLoadTimeMs": 15652,
+      "networkIdleTimeMs": 817,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 14932,
+          "resourceType": "xhr",
+          "timestamp": 1773782185720
+        }
+      ],
+      "totalApiTimeMs": 14932,
+      "slowestApiMs": 14932,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ALL/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Not Started",
+      "visit": "revisit",
+      "switchTimeMs": 352,
+      "dataLoadTimeMs": 1278,
+      "networkIdleTimeMs": 831,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 568,
+          "resourceType": "xhr",
+          "timestamp": 1773782201718
+        }
+      ],
+      "totalApiTimeMs": 568,
+      "slowestApiMs": 568,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "In Transit",
+      "visit": "revisit",
+      "switchTimeMs": 312,
+      "dataLoadTimeMs": 2369,
+      "networkIdleTimeMs": 828,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 1651,
+          "resourceType": "xhr",
+          "timestamp": 1773782203332
+        }
+      ],
+      "totalApiTimeMs": 1651,
+      "slowestApiMs": 1651,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Arrived",
+      "visit": "revisit",
+      "switchTimeMs": 346,
+      "dataLoadTimeMs": 8748,
+      "networkIdleTimeMs": 805,
+      "rowCount": 10,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8095,
+          "resourceType": "xhr",
+          "timestamp": 1773782206024
+        }
+      ],
+      "totalApiTimeMs": 8095,
+      "slowestApiMs": 8095,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Document Only",
+      "visit": "revisit",
+      "switchTimeMs": 420,
+      "dataLoadTimeMs": 1017,
+      "networkIdleTimeMs": 808,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 344,
+          "resourceType": "xhr",
+          "timestamp": 1773782215287
+        }
+      ],
+      "totalApiTimeMs": 344,
+      "slowestApiMs": 344,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Live Track Pending",
+      "visit": "revisit",
+      "switchTimeMs": 260,
+      "dataLoadTimeMs": 1105,
+      "networkIdleTimeMs": 838,
+      "rowCount": 5,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 380,
+          "resourceType": "xhr",
+          "timestamp": 1773782216596
+        }
+      ],
+      "totalApiTimeMs": 380,
+      "slowestApiMs": 380,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Inactive Shipments",
+      "visit": "revisit",
+      "switchTimeMs": 356,
+      "dataLoadTimeMs": 3515,
+      "networkIdleTimeMs": 844,
+      "rowCount": 1,
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 2896,
+          "resourceType": "xhr",
+          "timestamp": 1773782217954
+        }
+      ],
+      "totalApiTimeMs": 2896,
+      "slowestApiMs": 2896,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list"
+    }
+  ],
+  "apiSummary": {
+    "totalCalls": 19,
+    "failedCalls": 0,
+    "avgResponseMs": 3315,
+    "p50Ms": 611,
+    "p90Ms": 14932,
+    "p99Ms": 14971,
+    "maxMs": 14971,
+    "minMs": 11,
+    "slowCalls": 9
+  },
+  "cacheComparison": [
+    {
+      "tabName": "All Shipments",
+      "firstVisitMs": 15519,
+      "revisitMs": 15652,
+      "improvementPct": -1
+    },
+    {
+      "tabName": "Not Started",
+      "firstVisitMs": 1167,
+      "revisitMs": 1278,
+      "improvementPct": -10
+    },
+    {
+      "tabName": "In Transit",
+      "firstVisitMs": 2665,
+      "revisitMs": 2369,
+      "improvementPct": 11
+    },
+    {
+      "tabName": "Arrived",
+      "firstVisitMs": 8747,
+      "revisitMs": 8748,
+      "improvementPct": 0
+    },
+    {
+      "tabName": "Document Only",
+      "firstVisitMs": 1307,
+      "revisitMs": 1017,
+      "improvementPct": 22
+    },
+    {
+      "tabName": "Live Track Pending",
+      "firstVisitMs": 1011,
+      "revisitMs": 1105,
+      "improvementPct": -9
+    },
+    {
+      "tabName": "Inactive Shipments",
+      "firstVisitMs": 3671,
+      "revisitMs": 3515,
+      "improvementPct": 4
+    }
+  ],
+  "searchProfiling": {
+    "searchTerm": "us100",
+    "searchTimeMs": 20743,
+    "networkIdleMs": 1031,
+    "resultRowCount": 20,
+    "apiCalls": [
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=us100",
+        "method": "GET",
+        "status": 200,
+        "durationMs": 4001,
+        "resourceType": "xhr",
+        "timestamp": 1773782238789
+      }
+    ],
+    "slowestApiMs": 4001,
+    "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/common/global-search?searchText=us100"
+  },
+  "shipmentDetailProfiling": {
+    "shipmentNumber": "EMARG201811047AR",
+    "navigationTimeMs": 13874,
+    "networkIdleMs": 1524,
+    "apiCalls": [],
+    "totalApiTimeMs": 0,
+    "slowestApiMs": 0,
+    "slowestApiUrl": "",
+    "pageUrl": "https://stage.itt.bdpsmart.com/#/tracking-list?globalSearch=us100"
+  },
+  "memorySnapshots": [],
+  "consoleErrors": [
+    "❌ API call failed: Error",
+    "❌ API call failed: Error",
+    "❌ API call failed: Error",
+    "❌ API call failed: Error"
+  ]
+}

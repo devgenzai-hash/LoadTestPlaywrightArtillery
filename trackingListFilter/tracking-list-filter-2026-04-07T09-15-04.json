@@ -1,0 +1,288 @@
+{
+  "testName": "Tracking List Filter Performance — Saved Filter \"PeformanceTesting\"",
+  "timestamp": "2026-04-07T09:15:04.610Z",
+  "durationMs": 74067,
+  "browser": "firefox",
+  "loginToPageMs": 24544,
+  "initialPageLoadMs": 7945,
+  "initialPageLoadApiCalls": [
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 296,
+      "resourceType": "xhr",
+      "timestamp": 1775553247673
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 531,
+      "resourceType": "xhr",
+      "timestamp": 1775553247661
+    },
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+      "method": "POST",
+      "status": 200,
+      "durationMs": 3622,
+      "resourceType": "xhr",
+      "timestamp": 1775553248238
+    }
+  ],
+  "initialRowCount": 10,
+  "initialPaginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountUS10020964897OCEAN Late THE DOW CHEMIC ...OCEAN NETWORK  ...MMADHIYALAGAN@DOW.CO ...United States (US)Charleston (USCHS)Charleston (USCHS)ASIA PACIFICPhilippines (PH)Manila North Harbour ...USCHSPHMNN-08-15-2026 00:0010US10021038332OCEAN Late THE DOW CHEMIC ...OCEAN NETWORK  ...SJEON2@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)ASIA PACIFICViet Nam (VN)Cai Mep (VNTOT)USHOUVNTOTCat Lai (VNCLI)07-12-2026 00:003US10021043089OCEAN Late THE DOW CHEMIC ...MAERSK LINECSERVIND4@DOW.COMUnited States (US)New Orleans (USMSY)-MIDDLE EASTPakistan (PK)Karachi (PKKHI)USMSYPKKHI-06-21-2026 08:004US10020993536OCEAN Late THE DOW CHEMIC ...HYUNDAI MERCHA ...LXU16@DOW.COMUnited States (US)Savannah (USSAV)-ASIA PACIFICJapan (JP)Nagoya, Aichi (JPNGO ...USSAVJPNGO-06-10-2026 11:001US10021045968OCEAN Late THE DOW CHEMIC ...MAERSK LINERMORE@DOW.COMUnited States (US)New Orleans (USMSY)-ASIA PACIFICIndia (IN)Ennore (INENR)USMSYINENR-06-06-2026 12:001US10021024535OCEAN Late THE DOW CHEMIC ...MAERSK LINERMORE@DOW.COMUnited States (US)New Orleans (USMSY)-ASIA PACIFICIndia (IN)Ennore (INENR)USMSYINENR-06-06-2026 12:0013121193362OCEAN Late THE DOW CHEMIC ...MAERSK LINEAHUANG10@DOW.COMUnited Arab Emirates ...Jebel Ali (AEJEA)-ASIA PACIFICChina (CN)Huangpu Pt (CNHUA)AEJEACNHUA-06-06-2026 08:004US10021032369OCEAN On Time THE DOW CHEMIC ...CMA-CGMAPAWAR13@DOW.COMUnited States (US)New York (USNYC)New York (USNYC)OCEANIANew Zealand (NZ)Wellington (NZWLG)USNYCNZWLG-06-05-2026 00:001US10020976942OCEAN On Time THE DOW CHEMIC ...BERTSCHI NORTH ...CSERVIND1@DOW.COMUnited States (US)New Orleans (USMSY)Taft (USTFT)ASIA PACIFICIndia (IN)Mangalore (INIXE)USMSYINIXE-06-04-2026 00:003US10021053845OCEAN Late THE DOW CHEMIC ...MAERSK LINECSERVIND4@DOW.COMUnited States (US)New Orleans (USMSY)-MIDDLE EASTPakistan (PK)Karachi (PKKHI)USMSYPKKHI-06-04-2026 00:002Showing 1 to 10 of 12414 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+  "filterApply": {
+    "filterName": "PeformanceTesting",
+    "showFilterClickMs": 2278,
+    "settingsIconClickMs": 2278,
+    "filterApplyTimeMs": 5901,
+    "rowCountAfterFilter": 10,
+    "paginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountUS10020976942OCEAN On Time THE DOW CHEMIC ...BERTSCHI NORTH ...CSERVIND1@DOW.COMUnited States (US)New Orleans (USMSY)Taft (USTFT)ASIA PACIFICIndia (IN)Mangalore (INIXE)USMSYINIXE-06-04-2026 00:003US10021030950OCEAN On Time THE DOW CHEMIC ...BERTSCHI NORTH ...CSERVIND1@DOW.COMUnited States (US)New Orleans (USMSY)Taft (USTFT)ASIA PACIFICIndia (IN)Mangalore (INIXE)USMSYINIXE-06-04-2026 00:002US10020949145OCEAN On Time THE DOW CHEMIC ...CMA-CGMCCHETTIAR2@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)MIDDLE EASTOman (OM)Sohar (OMSOH)USHOUOMSOH-05-25-2026 00:001US10021008245OCEAN On Time THE DOW CHEMIC ...MAERSK LINEWCHEN18@DOW.COMUnited States (US)Newark (USEWR)-ASIA PACIFICJapan (JP)Yokohama (JPYOK)USEWRJPYOK-05-23-2026 23:001US10020988160OCEAN On Time THE DOW CHEMIC ...BULKHAUL (UK)  ...CSERVIND1@DOW.COMUnited States (US)New Orleans (USMSY)Taft (USTFT)ASIA PACIFICIndia (IN)Jawaharlal Nehru (Nh ...USMSYINNSA-05-20-2026 00:004US10021052955OCEAN On Time THE DOW CHEMIC ...EVERGREEN LINEWCHEN18@DOW.COMUnited States (US)Norfolk (USORF)-ASIA PACIFICJapan (JP)Tokyo (JPTYO)USORFJPTYO-05-16-2026 16:001CSHSE0440231OCEAN On Time THE DOW CHEMIC ...-EAAVILAROMERO@DOW.CO ...China (CN)Zhangjiagang (CNZJG)Zhangjiagang (CNZJG)SOUTH AMERICABrazil (BR)Santos (BRSSZ)CNZJGBRSSZSantos (BRSSZ)05-15-2026 00:001US10020981985OCEAN On Time THE DOW CHEMIC ...OCEAN NETWORK  ...ISACHDEV@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)ASIA PACIFICThailand (TH)Laem Chabang (THLCH)USHOUTHLCH-05-10-2026 00:001US10021013652OCEAN On Time THE DOW CHEMIC ...CMA-CGMWJIANG3@DOW.COMUnited States (US)New Orleans (USMSY)New Orleans (USMSY)OCEANIAAustralia (AU)Sydney (AUSYD)USMSYAUSYD-05-10-2026 00:001US10021051745OCEAN On Time THE DOW CHEMIC ...MAERSK LINEDLDAI@DOW.COMUnited States (US)Houston (USHOU)-ASIA PACIFICJapan (JP)Yokohama (JPYOK)USHOUJPYOK-05-09-2026 23:001Showing 1 to 10 of 1040 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+    "apiCalls": [
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/show-filter/countries",
+        "method": "POST",
+        "status": 200,
+        "durationMs": 396,
+        "resourceType": "xhr",
+        "timestamp": 1775553262431
+      },
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/show-filter/ports",
+        "method": "POST",
+        "status": 200,
+        "durationMs": 460,
+        "resourceType": "xhr",
+        "timestamp": 1775553262450
+      },
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+        "method": "POST",
+        "status": 200,
+        "durationMs": 2777,
+        "resourceType": "xhr",
+        "timestamp": 1775553262416
+      }
+    ],
+    "slowestApiMs": 2777,
+    "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list"
+  },
+  "tabResults": [
+    {
+      "tabName": "All shipment",
+      "switchTimeMs": 591,
+      "timeToFirstRowMs": 1200,
+      "networkIdleTimeMs": 2718,
+      "rowCount": 1,
+      "paginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+          "method": "GET",
+          "status": 200,
+          "durationMs": 324,
+          "resourceType": "xhr",
+          "timestamp": 1775553269618
+        },
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 386,
+          "resourceType": "xhr",
+          "timestamp": 1775553269596
+        }
+      ],
+      "slowestApiMs": 386,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Not started",
+      "switchTimeMs": 613,
+      "timeToFirstRowMs": 2433,
+      "networkIdleTimeMs": 3948,
+      "rowCount": 10,
+      "paginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountUS10021068478OCEAN On Time THE DOW CHEMIC ...OCEAN NETWORK  ...KMATSUDAIRA@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)ASIA PACIFICJapan (JP)Osaka (JPOSA)USHOUJPOSA-07-15-2026 00:002US10021068565OCEAN On Time THE DOW CHEMIC ...OCEAN NETWORK  ...KMATSUDAIRA@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)ASIA PACIFICJapan (JP)Osaka (JPOSA)USHOUJPOSA-07-15-2026 00:0011147538023OCEAN On Time THE DOW CHEMIC ...STOLT TANKERS  ...RDHAL@DOW.COMBelgium (BE)Antwerpen (BEANR)Antwerpen (BEANR)ASIA PACIFICIndia (IN)Jawaharlal Nehru (Nh ...BEANRINNSA-07-07-2026 00:001US10021051460OCEAN On Time THE DOW CHEMIC ...STOLT TANKERS  ...ABRANTS@DOW.COMUnited States (US)Houston (USHOU)Freeport (USFPO)SOUTH AMERICABrazil (BR)Santos (BRSSZ)USHOUBRSSZ-06-06-2026 00:001US10021031943OCEAN On Time THE DOW CHEMIC ...HAPAG LLOYD A  ...ABRANTS@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)SOUTH AMERICABrazil (BR)Santos (BRSSZ)USHOUBRSSZ-06-06-2026 00:001US10021051450OCEAN On Time THE DOW CHEMIC ...STOLT TANKERS  ...ABRANTS@DOW.COMUnited States (US)Houston (USHOU)Freeport (USFPO)SOUTH AMERICABrazil (BR)Santos (BRSSZ)USHOUBRSSZ-06-06-2026 00:001US10021051459OCEAN On Time THE DOW CHEMIC ...STOLT TANKERS  ...ABRANTS@DOW.COMUnited States (US)Houston (USHOU)Freeport (USFPO)SOUTH AMERICABrazil (BR)Santos (BRSSZ)USHOUBRSSZ-06-06-2026 00:001US10021051844OCEAN On Time THE DOW CHEMIC ...STOLT TANKERS  ...ABRANTS@DOW.COMUnited States (US)Houston (USHOU)Freeport (USFPO)SOUTH AMERICABrazil (BR)Santos (BRSSZ)USHOUBRSSZ-06-06-2026 00:001US10021031944OCEAN On Time THE DOW CHEMIC ...HAPAG LLOYD A  ...ABRANTS@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)SOUTH AMERICABrazil (BR)Santos (BRSSZ)USHOUBRSSZ-06-06-2026 00:001US10021051843OCEAN On Time THE DOW CHEMIC ...STOLT TANKERS  ...ABRANTS@DOW.COMUnited States (US)Houston (USHOU)Freeport (USFPO)SOUTH AMERICABrazil (BR)Santos (BRSSZ)USHOUBRSSZ-06-06-2026 00:001Showing 1 to 10 of 688 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+          "method": "GET",
+          "status": 200,
+          "durationMs": 282,
+          "resourceType": "xhr",
+          "timestamp": 1775553272525
+        },
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 1147,
+          "resourceType": "xhr",
+          "timestamp": 1775553272517
+        }
+      ],
+      "slowestApiMs": 1147,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "In transit",
+      "switchTimeMs": 806,
+      "timeToFirstRowMs": 3959,
+      "networkIdleTimeMs": 5463,
+      "rowCount": 10,
+      "paginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountUS10020976942OCEAN On Time THE DOW CHEMIC ...BERTSCHI NORTH ...CSERVIND1@DOW.COMUnited States (US)New Orleans (USMSY)Taft (USTFT)ASIA PACIFICIndia (IN)Mangalore (INIXE)USMSYINIXE-06-04-2026 00:003US10021030950OCEAN On Time THE DOW CHEMIC ...BERTSCHI NORTH ...CSERVIND1@DOW.COMUnited States (US)New Orleans (USMSY)Taft (USTFT)ASIA PACIFICIndia (IN)Mangalore (INIXE)USMSYINIXE-06-04-2026 00:002US10020949145OCEAN On Time THE DOW CHEMIC ...CMA-CGMCCHETTIAR2@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)MIDDLE EASTOman (OM)Sohar (OMSOH)USHOUOMSOH-05-25-2026 00:001US10021008245OCEAN On Time THE DOW CHEMIC ...MAERSK LINEWCHEN18@DOW.COMUnited States (US)Newark (USEWR)-ASIA PACIFICJapan (JP)Yokohama (JPYOK)USEWRJPYOK-05-23-2026 23:001US10020988160OCEAN On Time THE DOW CHEMIC ...BULKHAUL (UK)  ...CSERVIND1@DOW.COMUnited States (US)New Orleans (USMSY)Taft (USTFT)ASIA PACIFICIndia (IN)Jawaharlal Nehru (Nh ...USMSYINNSA-05-20-2026 00:004US10021052955OCEAN On Time THE DOW CHEMIC ...EVERGREEN LINEWCHEN18@DOW.COMUnited States (US)Norfolk (USORF)-ASIA PACIFICJapan (JP)Tokyo (JPTYO)USORFJPTYO-05-16-2026 16:001CSHSE0440231OCEAN On Time THE DOW CHEMIC ...-EAAVILAROMERO@DOW.CO ...China (CN)Zhangjiagang (CNZJG)Zhangjiagang (CNZJG)SOUTH AMERICABrazil (BR)Santos (BRSSZ)CNZJGBRSSZSantos (BRSSZ)05-15-2026 00:001US10020981985OCEAN On Time THE DOW CHEMIC ...OCEAN NETWORK  ...ISACHDEV@DOW.COMUnited States (US)Houston (USHOU)Houston (USHOU)ASIA PACIFICThailand (TH)Laem Chabang (THLCH)USHOUTHLCH-05-10-2026 00:001US10021013652OCEAN On Time THE DOW CHEMIC ...CMA-CGMWJIANG3@DOW.COMUnited States (US)New Orleans (USMSY)New Orleans (USMSY)OCEANIAAustralia (AU)Sydney (AUSYD)USMSYAUSYD-05-10-2026 00:001US10021051745OCEAN On Time THE DOW CHEMIC ...MAERSK LINEDLDAI@DOW.COMUnited States (US)Houston (USHOU)-ASIA PACIFICJapan (JP)Yokohama (JPYOK)USHOUJPYOK-05-09-2026 23:001Showing 1 to 10 of 1040 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+          "method": "GET",
+          "status": 200,
+          "durationMs": 344,
+          "resourceType": "xhr",
+          "timestamp": 1775553276533
+        },
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 2900,
+          "resourceType": "xhr",
+          "timestamp": 1775553276526
+        }
+      ],
+      "slowestApiMs": 2900,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Arrived",
+      "switchTimeMs": 805,
+      "timeToFirstRowMs": 10028,
+      "networkIdleTimeMs": 11533,
+      "rowCount": 10,
+      "paginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountUS10020986474OCEAN On Time THE DOW CHEMIC ...MAERSK LINEDLDAI@DOW.COMUnited States (US)Houston (USHOU)-ASIA PACIFICJapan (JP)Yokohama (JPYOK)USHOUJPYOK--1SG3085242994OCEAN On Time THE DOW CHEMIC ...MAERSK LINE-United States (US)Newark (USEWR)-ASIA PACIFICSingapore (SG)Singapore (SGSIN)USEWRSGSIN--1SG3085242995OCEAN On Time THE DOW CHEMIC ...MAERSK LINE-United States (US)Newark (USEWR)-ASIA PACIFICSingapore (SG)Singapore (SGSIN)USEWRSGSIN--1US10021006225OCEAN On Time THE DOW CHEMIC ...MAERSK LINERAFAELSCARLATO@DOW.C ...United States (US)Houston (USHOU)-SOUTH AMERICABrazil (BR)Santos (BRSSZ)USHOUBRSSZ--1US10021000316OCEAN On Time THE DOW CHEMIC ...MAERSK LINEAPAWAR13@DOW.COMUnited States (US)Houston (USHOU)-ASIA PACIFICIndia (IN)Chennai (ex Madras)  ...USHOUINMAA--2US10021014972OCEAN On Time THE DOW CHEMIC ...HYUNDAI MERCHA ...APAWAR13@DOW.COMUnited States (US)Houston (USHOU)-ASIA PACIFICTaiwan (TW)Kaohsiung (TWKHH)USHOUTWKHH--1US10020990515OCEAN On Time THE DOW CHEMIC ...MSC-MEDITERRAN ...WCHEN18@DOW.COMUnited States (US)Houston (USHOU)-OCEANIAAustralia (AU)Brisbane (AUBNE)USHOUAUBNE--1US10020974996OCEAN On Time THE DOW CHEMIC ...MAERSK LINEISACHDEV@DOW.COMUnited States (US)Houston (USHOU)-ASIA PACIFICJapan (JP)Kobe (JPUKB)USHOUJPUKB--1JPSI0120045OCEAN On Time THE DOW CHEMIC ...MAERSK LINE-United States (US)Houston (USHOU)-ASIA PACIFICJapan (JP)Kobe (JPUKB)USHOUJPUKB--1US10021019740OCEAN On Time THE DOW CHEMIC ...MAERSK LINEDFENIJN@DOW.COMUnited States (US)Charleston (USCHS)-EUROPEBelgium (BE)Antwerpen (BEANR)USCHSBEANR--1Showing 1 to 10 of 6389 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+          "method": "GET",
+          "status": 200,
+          "durationMs": 337,
+          "resourceType": "xhr",
+          "timestamp": 1775553282670
+        },
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8838,
+          "resourceType": "xhr",
+          "timestamp": 1775553282663
+        }
+      ],
+      "slowestApiMs": 8838,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Inactive shipments",
+      "switchTimeMs": 1005,
+      "timeToFirstRowMs": 3066,
+      "networkIdleTimeMs": 4576,
+      "rowCount": 1,
+      "paginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+          "method": "GET",
+          "status": 200,
+          "durationMs": 346,
+          "resourceType": "xhr",
+          "timestamp": 1775553294517
+        },
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 1909,
+          "resourceType": "xhr",
+          "timestamp": 1775553294486
+        }
+      ],
+      "slowestApiMs": 1909,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Document only",
+      "switchTimeMs": 732,
+      "timeToFirstRowMs": 1209,
+      "networkIdleTimeMs": 2717,
+      "rowCount": 1,
+      "paginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 382,
+          "resourceType": "xhr",
+          "timestamp": 1775553298809
+        },
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+          "method": "GET",
+          "status": 200,
+          "durationMs": 352,
+          "resourceType": "xhr",
+          "timestamp": 1775553298886
+        }
+      ],
+      "slowestApiMs": 382,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Live Track pending",
+      "switchTimeMs": 869,
+      "timeToFirstRowMs": 1336,
+      "networkIdleTimeMs": 2841,
+      "rowCount": 1,
+      "paginationInfo": "4 companies selected  MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlerts Subscription3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusCompany NameCarrier NameCustomer Service Rep.Origin Country NamePort of Departure NamePlace of Receipt NameRegion of Destination NameDestination Country NamePort of Arrival NamePort of Departure (UNLOC/IATA)Port of Arrival (UNLOC/IATA)Place of Delivery NamePort of Arrival Est. DateEquipment CountShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count",
+          "method": "GET",
+          "status": 200,
+          "durationMs": 327,
+          "resourceType": "xhr",
+          "timestamp": 1775553302039
+        },
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 473,
+          "resourceType": "xhr",
+          "timestamp": 1775553302039
+        }
+      ],
+      "slowestApiMs": 473,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list"
+    }
+  ],
+  "apiSummary": {
+    "totalCalls": 20,
+    "failedCalls": 0,
+    "avgResponseMs": 1321,
+    "p50Ms": 396,
+    "p90Ms": 3622,
+    "p99Ms": 8838,
+    "maxMs": 8838,
+    "minMs": 282,
+    "slowCalls": 6
+  },
+  "memorySnapshots": [],
+  "consoleErrors": [
+    "❌ API call failed: Error",
+    "❌ API call failed: Error",
+    "❌ API call failed: Error",
+    "❌ API call failed: Error"
+  ]
+}

@@ -1,0 +1,27 @@
+config:
+  target: https://www.artillery.io
+  phases:
+    - duration: 60
+      arrivalRate: 1
+  # Load the Playwright engine:
+  engines:
+    playwright: {}
+  # Path to JavaScript file that defines Playwright test functions
+  # TypeScript is also supported
+  processor: './flows.js'
+scenarios:
+  - engine: playwright
+    testFunction: helloWorldconfig:
+  target: https://www.artillery.io
+  phases:
+    - duration: 60
+      arrivalRate: 1
+  # Load the Playwright engine:
+  engines:
+    playwright: {}
+  # Path to JavaScript file that defines Playwright test functions
+  # TypeScript is also supported
+  processor: './flows.js'
+scenarios:
+  - engine: playwright
+    testFunction: helloWorld

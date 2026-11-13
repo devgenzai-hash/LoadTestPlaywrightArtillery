@@ -1,0 +1,126 @@
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                             TRACKING LIST — FILTER PERFORMANCE TEST REPORT                           ║
+║                                   Saved Filter: "PeformanceTesting"                                  ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  Test Name   : Tracking List Filter Performance — Saved Filter "PeformanceTesting"                   ║
+║  Timestamp   : 2026-03-11T13:28:16.362Z                                                              ║
+║  Browser     : chromium                                                                              ║
+║  Duration    : 117.2s                                                                                ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── LOGIN → TRACKING LIST PAGE ──                                                                    ║
+║  🟡 Login to Tracking List  :  25945ms  NEEDS IMPROVEMENT                                            ║
+║                                                                                                      ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── INITIAL TRACKING LIST LOAD (Before Filter) ──                                                    ║
+║  🟡 Page Load Time       :  11303ms  NEEDS IMPROVEMENT                                               ║
+║    API calls during load   :      2                                                                  ║
+║    Row count (visible)     :     10                                                                  ║
+║    Pagination             : 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateBNST1000014034OCEAN On Time -02-10-2026 00:00-----04-15-2026 00:0003-28-2026 00:00BK_3M--02-01-2026 00:00-04-15-2026 00:00BNST1000014102OCEAN Undefined -03-07-2026 03:00-----03-09-2026 00:0003-07-2026 00:00BK_3M--03-07-2026 03:00--BNS0000025253OCEAN On Time 01-05-2026 12:0501-12-2026 14:32-----02-16-2026 20:00-BK_3M--01-12-2026 02:32-02-16-2026 20:00BNS0000024750OCEAN On Time 01-02-2026 11:1101-13-2026 14:14---01-10-2026 13:54-02-16-2026 06:00-BK_3M--01-13-2026 10:43-02-16-2026 06:00BNS0000022516OCEAN On Time 12-23-2025 12:5301-06-2026 06:44-----02-11-2026 06:00-BK_3M--01-05-2026 22:19-02-11-2026 06:00BNS0000021975OCEAN On Time -12-31-2025 00:00---12-24-2025 17:00-02-07-2026 06:00-BK_3M--12-31-2025 16:21-02-07-2026 06:00BNS0000023618OCEAN On Time -01-09-2026 11:14---01-07-2026 08:38-02-05-2026 22:00-BK_3M--01-09-2026 00:34-02-05-2026 22:00BNS0000020753OCEAN On Time 01-02-2026 00:0001-09-2026 15:14-----02-04-2026 00:00-BK_3M--01-09-2026 15:14-02-04-2026 00:00BNS0000023880OCEAN On Time 01-02-2026 00:0001-09-2026 15:14-----02-04-2026 00:00-BK_3M--01-09-2026 15:14-02-04-2026 00:00BNS0000020549OCEAN On Time 12-27-2025 11:3001-03-2026 06:12-----02-03-2026 05:00-BK_3M--01-03-2026 02:47-02-03-2026 05:00Showing 1 to 10 of 77 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║                                                                                                      ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── SAVED FILTER APPLICATION: "PeformanceTesting" ──                                                 ║
+║                                                                                                      ║
+║  🟡 "Show filters" → sidebar open    :   1451ms                                                      ║
+║  🟡 Settings icon → panel open       :   2061ms                                                      ║
+║  🟡 Filter click → data loaded       :  10758ms  NEEDS IMPROVEMENT                                   ║
+║    API calls during filter        :      3                                                           ║
+║    Slowest API                    :   8469ms                                                         ║
+║    Row count after filter         :      1                                                           ║
+║    Pagination                    : 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║                                                                                                      ║
+║  ── API CALLS DURING FILTER APPLICATION ──                                                           ║
+║    ✅ [POST]   588ms | 200 | …://stage.itt.bdpsmart.com/api/v1/show-filter/countries                  ║
+║    ✅ [POST]   678ms | 200 | https://stage.itt.bdpsmart.com/api/v1/show-filter/ports                  ║
+║    ✅ [POST]  8469ms | 204 | …/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list                  ║
+║                                                                                                      ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── TRACKING LIST TAB NAVIGATION (After Filter) ──                                                   ║
+║  TAB NAME                   SWITCH    1st ROW    NET IDLE   ROWS   APIs    SLOWEST  RATING           ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🔴 All shipment              288ms     8744ms     10253ms      1      1     8036ms  POOR            ║
+║  🔴 Not started               226ms     8908ms     10422ms      3      1     8430ms  POOR            ║
+║  🔴 In transit                236ms     8969ms     10479ms      1      1     8378ms  POOR            ║
+║  🔴 Arrived                   253ms     9429ms     11023ms     10      1     8807ms  POOR            ║
+║  🔴 Inactive shipments        408ms     9082ms     10600ms      1      1     8242ms  POOR            ║
+║  🔴 Document only             299ms     8964ms     10467ms      1      1     8222ms  POOR            ║
+║  🔴 Live Track pending        329ms     8650ms     10165ms      1      1     8269ms  POOR            ║
+║                                                                                                      ║
+║  Avg switch time :    291ms    Avg net idle :  10487ms                                               ║
+║                                                                                                      ║
+║  ── PER-TAB DETAIL: API CALLS ──                                                                     ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 All shipment  (switch=288ms → 1stRow=8744ms → idle=10253ms)                                      ║
+║    📄 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║    📡 API Calls (1):                                                                                 ║
+║      ✅ [POST]  8036ms | 204 | …v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list                ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Not started  (switch=226ms → 1stRow=8908ms → idle=10422ms)                                       ║
+║    📄 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateBNST1000014065OCEAN On Time -------03-31-2026 00:0003-25-2026 00:00BK_3M----03-31-2026 00:00BNST1000014067OCEAN On Time -------03-30-2026 00:0003-25-2026 00:00BK_3M----03-30-2026 00:00BNS0000023956OCEAN On Time -------01-31-2026 12:0001-18-2026 00:00BK_3M----01-31-2026 12:00Showing 1 to 3 of 3 entries 1 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║    📡 API Calls (1):                                                                                 ║
+║      ✅ [POST]  8430ms | 200 | …tracking-list/NOT_STARTED/fetch-shipment-tracking-list                ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 In transit  (switch=236ms → 1stRow=8969ms → idle=10479ms)                                        ║
+║    📄 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║    📡 API Calls (1):                                                                                 ║
+║      ✅ [POST]  8378ms | 204 | …/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list                ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Arrived  (switch=253ms → 1stRow=9429ms → idle=11023ms)                                           ║
+║    📄 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateBNS0000021868OCEAN On Time -12-30-2025 16:4401-10-2026 18:14--12-28-2025 10:22---BK_3M--12-30-2025 06:19-01-10-2026 18:14BNS0000019562OCEAN On Time 12-19-2025 13:4412-22-2025 05:4701-04-2026 20:42--12-21-2025 08:52---BK_3M--12-21-2025 23:05-01-05-2026 03:50BNS0000017358OCEAN On Time 12-03-2025 15:2212-07-2025 12:0712-18-2025 00:00--12-04-2025 16:40---BK_3M--12-07-2025 03:57-12-18-2025 00:00BNS0000014704OCEAN On Time -12-04-2025 00:0012-12-2025 00:0012-31-1899 00:00-----BK_3M-12-31-1899 00:0012-04-2025 00:00-12-12-2025 00:00BNS0000015409OCEAN On Time 11-14-2025 15:5611-18-2025 20:1212-01-2025 03:51--11-15-2025 10:1712-04-2025 03:53--BK_3M--11-18-2025 11:11-12-01-2025 03:51BNS0000011364OCEAN On Time -11-07-2025 00:0011-18-2025 00:46------BK_3M--11-07-2025 00:00-11-18-2025 00:46BNS0000011347OCEAN On Time -10-30-2025 00:0011-16-2025 18:0011-26-2025 00:00-10-22-2025 16:00---BK_3M-11-26-2025 00:0010-30-2025 00:00-11-16-2025 18:00BNS0000010860OCEAN On Time -10-27-2025 00:0011-09-2025 19:47--10-25-2025 09:3711-15-2025 05:24--BK_3M--10-27-2025 09:13-11-09-2025 19:47BNS0000008549OCEAN On Time 10-10-2025 12:0310-13-2025 00:0010-24-2025 09:1510-28-2025 00:00-10-02-2025 17:00---BK_3M-10-28-2025 00:0010-13-2025 00:00-10-24-2025 09:15BNS0000008066OCEAN On Time 09-29-2025 17:0110-03-2025 14:2610-18-2025 00:00--09-30-2025 15:00---BK_3M--10-03-2025 05:07-10-18-2025 00:00Showing 1 to 10 of 14 entries 1  2 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║    📡 API Calls (1):                                                                                 ║
+║      ✅ [POST]  8807ms | 200 | …/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list                ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Inactive shipments  (switch=408ms → 1stRow=9082ms → idle=10600ms)                                ║
+║    📄 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║    📡 API Calls (1):                                                                                 ║
+║      ✅ [POST]  8242ms | 204 | …v1/tracking-list/INACTIVE/fetch-shipment-tracking-list                ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Document only  (switch=299ms → 1stRow=8964ms → idle=10467ms)                                     ║
+║    📄 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║    📡 API Calls (1):                                                                                 ║
+║      ✅ [POST]  8222ms | 204 | …v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list                ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Live Track pending  (switch=329ms → 1stRow=8650ms → idle=10165ms)                                ║
+║    📄 2 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved║
+║    📡 API Calls (1):                                                                                 ║
+║      ✅ [POST]  8269ms | 204 | …g-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list                ║
+║                                                                                                      ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── AGGREGATE API STATISTICS ──                                                                      ║
+║  Total API calls   :     12                                                                          ║
+║  Failed calls      :      0                                                                          ║
+║  Slow calls (>1s)  :      9                                                                          ║
+║  Min response      :    344ms                                                                        ║
+║  Avg response      :   6389ms                                                                        ║
+║  P50 response      :   8242ms                                                                        ║
+║  P90 response      :   8469ms                                                                        ║
+║  P99 response      :   8807ms                                                                        ║
+║  Max response      :   8807ms                                                                        ║
+║                                                                                                      ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── MEMORY SNAPSHOTS ──                                                                              ║
+║  STAGE                                               USED       TOTAL                                ║
+║  ────────────────────────────────────────────────────────────────────────────────────────────────────║
+║  After Initial Tracking List Load                 54.64 MB     75.04 MB                              ║
+║  After Filter Applied                             35.15 MB     36.84 MB                              ║
+║  Final (After All Tabs)                           32.55 MB     38.53 MB                              ║
+║                                                                                                      ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── CONSOLE ERRORS (6) ──                                                                            ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://sta  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://sta  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://sta  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://sta  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://sta  ║
+║  ❌ ❌ API call failed: TypeError: Cannot read properties of null (reading 'data')
+    at https://sta  ║
+║                                                                                                      ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+Report generated at: 2026-03-11T13:28:16.362Z
+Test duration: 117.2s

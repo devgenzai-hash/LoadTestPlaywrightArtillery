@@ -1,0 +1,31 @@
+{
+  "name": "loadtestplaywrightartillery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:perf": "npx playwright test --project=performance-edge tests/performance/",
+    "test:perf:comprehensive": "npx playwright test --project=performance-edge tests/performance/comprehensive-site-performance.spec.ts",
+    "test:perf:tracking": "npx playwright test --project=performance-edge tests/performance/tracking-list-performance.spec.ts",
+    "test:perf:cwv": "npx playwright test --project=performance-edge tests/performance/core-web-vitals.spec.ts",
+    "test:perf:network": "npx playwright test --project=performance-edge tests/performance/network-api-performance.spec.ts",
+    "test:perf:resources": "npx playwright test --project=performance-edge tests/performance/resource-memory-analysis.spec.ts",
+    "test:perf:nav": "npx playwright test --project=performance-edge tests/performance/page-load-timing.spec.ts",
+    "test:perf:spa": "npx playwright test --project=performance-edge tests/performance/spa-navigation-performance.spec.ts",
+    "test:perf:all": "npx playwright test --project=performance-edge --project=performance-firefox tests/performance/",
+    "test:edge": "npx playwright test --project=\"Microsoft Edge\"",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^24.13.3",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "loadtestplaywrightartillery": "file:"
+  }
+}

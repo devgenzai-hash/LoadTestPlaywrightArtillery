@@ -1,0 +1,141 @@
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                TRACKING LIST TAB PERFORMANCE REPORT                                ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  Timestamp : 2026-04-13T12:53:31.023Z                                                              ║
+║  Browser   : firefox                                                                               ║
+║  Duration  : 165.0s                                                                                ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── NAVIGATION TO TRACKING LIST ──                                                                 ║
+║  🟡 Total navigation time :   4883ms                                                               ║
+║    API calls during nav :      8                                                                   ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                  ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  GET         200        13ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w    ║
+║  GET         200         6ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w    ║
+║  GET         200         0ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w    ║
+║  POST        204         0ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w    ║
+║  POST        204         0ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w    ║
+║  GET         200        12ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w    ║
+║  GET         200       320ms  …ge.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting    ║
+║  GET         200       350ms  https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count            ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── FIRST VISIT — TAB PERFORMANCE ──                                                               ║
+║  TAB                      SWITCH   DATA LOAD    NET IDLE    ROWS   APIs    SLOWEST  RATING         ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🟢 All Shipments          1644ms      1364ms       809ms      20      1      734ms                ║
+║  🟢 Not Started           29174ms      1040ms       847ms      20      1      397ms                ║
+║  🟡 In Transit             1679ms      2594ms       960ms      10      2     2077ms                ║
+║  🟢 Arrived                 658ms      1097ms       831ms      20      1      506ms                ║
+║  🟢 Document Only         13257ms      1013ms       805ms       1      2      542ms                ║
+║  🟢 Live Track Pending      412ms      1057ms       852ms       1      2      425ms                ║
+║  🟢 Inactive Shipments      624ms       936ms       820ms       1      2      732ms                ║
+║  Average data load (first visit) :   1300ms                                                        ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── REVISIT — TAB PERFORMANCE (WARM CACHE) ──                                                      ║
+║  TAB                      SWITCH   DATA LOAD    NET IDLE    ROWS   APIs    SLOWEST  RATING         ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🟢 All Shipments           536ms      1513ms       812ms      11      1      843ms                ║
+║  🟢 Not Started           29954ms      1203ms       806ms      20      1      619ms                ║
+║  🟢 In Transit             1401ms       980ms       816ms      20      1      347ms                ║
+║  🟢 Arrived                1635ms      1060ms       813ms      20      1      400ms                ║
+║  🟢 Document Only         12545ms       923ms       821ms       1      2      384ms                ║
+║  🟢 Live Track Pending      403ms      1115ms       810ms       1      2      484ms                ║
+║  🟢 Inactive Shipments      429ms      1011ms       809ms       1      2      687ms                ║
+║  Average data load (revisit)     :   1115ms                                                        ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── COLD vs WARM COMPARISON ──                                                                     ║
+║  TAB                     1st VISIT     REVISIT   IMPROVEMENT                                       ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ⬆ All Shipments            1364ms      1513ms         -11%                                        ║
+║  ⬆ Not Started              1040ms      1203ms         -16%                                        ║
+║  ⬇ In Transit               2594ms       980ms          62%                                        ║
+║  ⬇ Arrived                  1097ms      1060ms           3%                                        ║
+║  ⬇ Document Only            1013ms       923ms           9%                                        ║
+║  ⬆ Live Track Pending       1057ms      1115ms          -5%                                        ║
+║  ⬆ Inactive Shipments        936ms      1011ms          -8%                                        ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── AGGREGATE API STATISTICS ──                                                                    ║
+║  Total API calls   :     49                                                                        ║
+║  Failed calls      :      0                                                                        ║
+║  Slow calls (>1s)  :      1                                                                        ║
+║  Min response      :      0ms                                                                      ║
+║  Avg response      :    327ms                                                                      ║
+║  P50 response      :    347ms                                                                      ║
+║  P90 response      :    687ms                                                                      ║
+║  P99 response      :   2077ms                                                                      ║
+║  Max response      :   2077ms                                                                      ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── PER-TAB API BREAKDOWN (FIRST VISIT) ──                                                         ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 All Shipments  (1 APIs, slowest 734ms)                                                         ║
+║    ✅ [GET ]   734ms | 200 | …ps://stage.itt.bdpsmart.com/api/v1/alerts/unread-count                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Not Started  (1 APIs, slowest 397ms)                                                           ║
+║    ✅ [GET ]   397ms | 200 | …ps://stage.itt.bdpsmart.com/api/v1/alerts/unread-count                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 In Transit  (2 APIs, slowest 2077ms)                                                           ║
+║    ✅ [GET ]   322ms | 200 | …ps://stage.itt.bdpsmart.com/api/v1/alerts/unread-count                ║
+║    ✅ [POST]  2077ms | 200 | …/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Arrived  (1 APIs, slowest 506ms)                                                               ║
+║    ✅ [GET ]   506ms | 200 | …ps://stage.itt.bdpsmart.com/api/v1/alerts/unread-count                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Document Only  (2 APIs, slowest 542ms)                                                         ║
+║    ✅ [POST]   414ms | 204 | …v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list                ║
+║    ✅ [GET ]   542ms | 200 | …ps://stage.itt.bdpsmart.com/api/v1/alerts/unread-count                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Live Track Pending  (2 APIs, slowest 425ms)                                                    ║
+║    ✅ [GET ]   353ms | 200 | …ps://stage.itt.bdpsmart.com/api/v1/alerts/unread-count                ║
+║    ✅ [POST]   425ms | 200 | …g-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list                ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  📋 Inactive Shipments  (2 APIs, slowest 732ms)                                                    ║
+║    ✅ [GET ]   392ms | 200 | …ps://stage.itt.bdpsmart.com/api/v1/alerts/unread-count                ║
+║    ✅ [POST]   732ms | 204 | …v1/tracking-list/INACTIVE/fetch-shipment-tracking-list                ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── SHIPMENT DETAIL PAGE NAVIGATION — "US10021059042" ──                                           ║
+║  🟡 Total navigation time  :   3948ms                                                              ║
+║    Network idle time    :   1513ms                                                                 ║
+║    Total API time       :   3485ms                                                                 ║
+║    API calls fired      :     20                                                                   ║
+║    Slowest API          :    471ms                                                                 ║
+║    Page URL             : https://stage.itt.bdpsmart.com/#/tracking-list-details/1282748           ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  METHOD   STATUS    DURATION  URL                                                                  ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ✅ GET         200       309ms  https://stage.itt.bdpsmart.com/api/v1/alerts/unread-count          ║
+║  ✅ GET         200       322ms  …t.bdpsmart.com/api/v1/alerts/unread-count?transportLegId=1282748  ║
+║  ✅ GET         200       347ms  …psmart.com/api/v1/tracking-details/header?transportLegId=1282748  ║
+║  ✅ GET         200       361ms  …ing-details/shipment-info/eta-information?transportLegId=1282748  ║
+║  ✅ GET         200       398ms  …acking-details/shipment-info/general-info?transportLegId=1282748  ║
+║  ✅ GET         200         0ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ POST        204       413ms  …t.com/api/v1/alerts?category=PRE_CARRIAGE&transportLegId=1282748  ║
+║  ✅ GET         200       426ms  …1/tracking-details/event/event-milestones?transportLegId=1282748  ║
+║  ✅ GET         200       471ms  …ing-details/location/location-information?transportLegId=1282748  ║
+║  ✅ GET         200       330ms  …mart.com/api/v1/tracking-details/timeline?transportLegId=1282748  ║
+║  ✅ GET         200         0ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200         0ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200         1ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200         0ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200         9ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200        21ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200         4ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200        36ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200         3ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║  ✅ GET         200        34ms  …SI6ImNrcHpld25pNzBsdGEycG82aTh2NjI0YnAifQ.AD4EUC9iCaDZMT36sNq50w  ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── CONSOLE ERRORS (4) ──                                                                          ║
+║  ❌ ❌ API call failed: Error                                                                        ║
+║  ❌ ❌ API call failed: Error                                                                        ║
+║  ❌ ❌ API call failed: Error                                                                        ║
+║  ❌ ❌ API call failed: Error                                                                        ║
+║                                                                                                    ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════╝

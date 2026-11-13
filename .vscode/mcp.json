@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "playwright-test": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "playwright",
+        "run-test-mcp-server"
+      ]
+    }
+  ,
+    "dndSql": {
+      "type": "stdio",
+      "command": "C:/Users/aranjan/AppData/Local/Programs/Python/Python314/python.exe",
+      "args": ["C:/Users/aranjan/PycharmProjects/Automations/DND_Files/dnd_mcp.py"]
+    }
+  },
+  "inputs": []
+}
+

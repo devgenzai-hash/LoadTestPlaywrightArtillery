@@ -1,0 +1,92 @@
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                           HOME ↔ TRACKING LIST FILTER PERFORMANCE REPORT                           ║
+║                        Filter: "PerformanceTesting" — Navigation Round-Trip                        ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  Test Name   : Home ↔ Tracking List Filter Performance                                             ║
+║  Timestamp   : 2026-04-07T09:11:08.704Z                                                            ║
+║  Browser     : firefox                                                                             ║
+║  Duration    : 59.1s                                                                               ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── STEP 1: LOGIN → HOME PAGE ──                                                                   ║
+║  🟡 Login → Home page           :  20336ms  NEEDS IMPROVEMENT                                      ║
+║  🟡 Home page load time        :   2924ms  GOOD                                                    ║
+║    API calls during load       :      3                                                            ║
+║                                                                                                    ║
+║  ── NAVIGATION TIMING (Home Page) ──                                                               ║
+║    DNS Lookup                  :      0ms                                                          ║
+║    TCP Connection              :      0ms                                                          ║
+║    TLS Negotiation             :      0ms                                                          ║
+║    Server Response (TTFB)      :      7ms                                                          ║
+║    DOM Content Loaded          :   1876ms                                                          ║
+║    DOM Interactive             :   1160ms                                                          ║
+║    DOM Complete                :   1879ms                                                          ║
+║    Page Load                   :   1880ms                                                          ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── STEP 2: HOME → TRACKING LIST PAGE ──                                                           ║
+║  🟡 Navigation time (click → load) :   9534ms  NEEDS IMPROVEMENT                                   ║
+║  🟡 Page fully loaded              :   9534ms  NEEDS IMPROVEMENT                                   ║
+║    API calls during navigation  :      3                                                           ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── STEP 3-4: OPEN FILTER PANEL & SAVED FILTERS ──                                                 ║
+║  🟡 "Show filters" → sidebar open  :   1804ms  NEEDS IMPROVEMENT                                   ║
+║  🟡 Settings icon → panel open     :   2281ms  NEEDS IMPROVEMENT                                   ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── STEP 5: APPLY "PerformanceTesting" FILTER ON TRACKING LIST ──                                  ║
+║  🟢 Filter click → first response  :    967ms  GOOD                                                ║
+║  🟡 Filter click → data fully loaded:   7337ms  NEEDS IMPROVEMENT                                  ║
+║    API calls during filter      :      3                                                           ║
+║    Slowest API                  :   3764ms                                                         ║
+║    Slowest API URL              : …com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list║
+║                                                                                                    ║
+║  ── API CALLS DURING FILTER APPLICATION ──                                                         ║
+║    ✅ [POST]   414ms | 200 | …://stage.itt.bdpsmart.com/api/v1/show-filter/countries                ║
+║    ✅ [POST]   430ms | 200 | https://stage.itt.bdpsmart.com/api/v1/show-filter/ports                ║
+║    ✅ [POST]  3764ms | 200 | …/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list                ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── STEP 6: TRACKING LIST (FILTERED) → HOME PAGE ──                                                ║
+║  🟡 Navigation time (click → load) :   8929ms  NEEDS IMPROVEMENT                                   ║
+║  🟡 Home page fully loaded         :   8929ms  NEEDS IMPROVEMENT                                   ║
+║    API calls during navigation  :     15                                                           ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── STEP 7: HOME → TRACKING LIST (RETURN TRIP — FILTER APPLIED) ──                                 ║
+║  🟡 Navigation time (click → load) :   7411ms  NEEDS IMPROVEMENT                                   ║
+║  🟡 Tracking List fully loaded     :   7411ms  NEEDS IMPROVEMENT                                   ║
+║    API calls during navigation  :      3                                                           ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── NAVIGATION ROUND-TRIP SUMMARY ──                                                               ║
+║                                                                                                    ║
+║   STEP                                    TIME (ms)   RATING                                       ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  🟡 1. Home Page Load (initial)           2924ms   GOOD                                            ║
+║  🟡 2. Home → Tracking List                9534ms   NEEDS IMPROVEMENT                              ║
+║  🟡 3. Show Filters (sidebar open)        1804ms   NEEDS IMPROVEMENT                               ║
+║  🟡 4. Settings Icon (panel open)         2281ms   NEEDS IMPROVEMENT                               ║
+║  🟡 5. Filter Apply → Data Loaded         7337ms   NEEDS IMPROVEMENT                               ║
+║  🟡 6. Tracking List → Home (filtered)    8929ms   NEEDS IMPROVEMENT                               ║
+║  🟡 7. Home → Tracking List (return)      7411ms   NEEDS IMPROVEMENT                               ║
+║  ──────────────────────────────────────────────────────────────────────────────────────────────────║
+║  ⏱️  TOTAL ROUND-TRIP TIME                40220ms                                                  ║
+║                                                                                                    ║
+╠════════════════════════════════════════════════════════════════════════════════════════════════════╣
+║  ── AGGREGATE API STATISTICS ──                                                                    ║
+║  Total API calls   :     27                                                                        ║
+║  Failed calls      :      0                                                                        ║
+║  Slow calls (>1s)  :      4                                                                        ║
+║  Min response      :      0ms                                                                      ║
+║  Avg response      :    699ms                                                                      ║
+║  P50 response      :    321ms                                                                      ║
+║  P90 response      :   3586ms                                                                      ║
+║  P99 response      :   4160ms                                                                      ║
+║  Max response      :   4160ms                                                                      ║
+║                                                                                                    ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+Report generated at: 2026-04-07T09:11:08.704Z
+Test duration: 59.1s

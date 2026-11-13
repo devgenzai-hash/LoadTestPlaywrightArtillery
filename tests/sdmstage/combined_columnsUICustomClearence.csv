@@ -1,0 +1,36 @@
+UIcolumnsCustomsClearanceCompleted,UIcolumnsCustomsIncompleteDocuments,UIcolumnsCustomsPendingClearance,UIcolumnsCustomsRequestPending,UIcolumnsCustomsRequestSubmitted,UIcolumnsCustomsUpcomingShipments
+Container No.,Shipment No.,Shipment No.,Shipment No.,Shipment No.,Shipment No.
+Shipment No.,Documents,Clearance Status,Documents,Request Status,Carrier Name
+Clearance Status,Document Status,Documents,Document Status,Documents,Port of Arrival
+Customs Cleared,Customer Name,Document Status,Destination Country,Document Status,Destination Country
+CDN,Carrier Name,Port of Arrival,ETA,Destination Country,Broker Name
+Broker,Port of Arrival,Destination Country,Days Until ETA,ETA,Document Status
+Port of Arrival,Destination Country,Latest ETA,Broker,Broker,Vessel Name
+Destination Country,Vessel Name,Original Departure ETA,Customer Name,Consignee,Latest ETA
+Latest ETA,Latest ETA,Predictive ETA,Carrier Name,Request Submitted Date,Days Until ETA
+Original Departure ETA,ATA,Arrival Status,Master B/L,Carrier Name,ATA
+Predictive ETA,Arrival Status,ATA,Vessel Name,Master B/L,Arrival Status
+Arrival Status,Days Until ETA,CDN,ATA,Vessel Name,Master B/L
+ATA,Master B/L,Broker,Audit Log,ATA,Carrier SCAC
+Carrier Name,Carrier SCAC,Carrier Name,Port of Arrival,Port of Arrival,Voyage Number
+Vessel Name,Voyage Number,Master B/L,Company,Company Name,ATD
+Voyage Number,Company,Carrier Released Date,BDP Representative,BDP Representative,Port of Departure
+Master B/L,Broker,Consignee,Alert,Audit Log,Mode of Transportation
+Consignee,BDP Representative,Vessel Name,,,Shipper Ref.
+Cargo Type,,Voyage Number,,,BDP Representative
+Move Type,,Cargo Type,,,No. of Containers
+INCO Term,,Move Type,,,
+INCO Term Port Location,,INCO Term,,,
+Place of Delivery Name,,INCO Term Port Location,,,
+ATD,,Place of Delivery Name,,,
+Port of Departure,,ATD,,,
+Shipper Ref.,,Move Type,,,
+House B/L,,Country of Departure,,,
+Has T/S,,Mode of Transportation,,,
+Company Name,,No of Containers,,,
+BDP Representative,,INCO Term,,,
+,,INCO Term Port Location,,,
+,,Has T/S,,,
+,,Company,,,
+,,BDP Representative,,,
+,,Audit Log,,,

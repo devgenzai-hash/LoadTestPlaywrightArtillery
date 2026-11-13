@@ -1,0 +1,106 @@
+Feature,Pages / Action,Time (seconds),Time (ms),Status,Test Source
+,,,,
+═══ HOME PAGE ═══,,,,
+Home Page,Dashboard Load (Initial),3.30,3299,PASS,home-page-timing
+Home Page,KPI - Not Started Shipments Render,0.01,11,PASS,home-page-timing
+Home Page,KPI - Arrived Shipments Render,0.03,31,PASS,home-page-timing
+Home Page,KPI - In Transit Shipments Render,0.04,44,PASS,home-page-timing
+Home Page,Map Toggle (Origin → Destination),4.67,4670,PASS,home-page-timing
+Home Page,Transport Tab - Ocean,3.43,3430,PASS,home-page-timing
+Home Page,Transport Tab - Air,0.13,134,PASS,home-page-timing
+Home Page,Transport Tab - Rail,1.64,1638,PASS,home-page-timing
+Home Page,Transport Tab - Road,1.58,1583,PASS,home-page-timing
+,,,,
+═══ TRACKING LIST ═══,,,,
+Tracking List,Navigation to Tracking List (from login),2.84,2836,PASS,tracking-list-tab-perf
+Tracking List,All Shipments - First Visit,13.60,13604,PASS,tracking-list-tab-perf
+Tracking List,Not Started - First Visit,8.73,8734,PASS,tracking-list-tab-perf
+Tracking List,In Transit - First Visit,8.90,8896,PASS,tracking-list-tab-perf
+Tracking List,Arrived - First Visit,10.96,10956,PASS,tracking-list-tab-perf
+Tracking List,Document Only - First Visit,8.03,8032,PASS,tracking-list-tab-perf
+Tracking List,Live Track Pending - First Visit,7.98,7975,PASS,tracking-list-tab-perf
+Tracking List,Inactive Shipments - First Visit,8.21,8209,PASS,tracking-list-tab-perf
+Tracking List,All Shipments - Revisit (Warm Cache),13.74,13743,PASS,tracking-list-tab-perf
+Tracking List,Not Started - Revisit (Warm Cache),8.68,8682,PASS,tracking-list-tab-perf
+Tracking List,In Transit - Revisit (Warm Cache),8.95,8950,PASS,tracking-list-tab-perf
+Tracking List,Arrived - Revisit (Warm Cache),10.55,10550,PASS,tracking-list-tab-perf
+Tracking List,Document Only - Revisit (Warm Cache),7.85,7847,PASS,tracking-list-tab-perf
+Tracking List,Live Track Pending - Revisit (Warm Cache),8.18,8176,PASS,tracking-list-tab-perf
+Tracking List,Inactive Shipments - Revisit (Warm Cache),8.15,8146,PASS,tracking-list-tab-perf
+,,,,
+═══ TRACKING DETAILS ═══,,,,
+Tracking Details,Home page → Tracking details page (via search),2.34,2336,PASS,global-search-to-details
+Tracking Details,Detail page data visible,0.81,811,PASS,global-search-to-details
+Tracking Details,Tab - Shipment Information,2.52,2517,PASS,global-search-to-details
+Tracking Details,Tab - Location,2.54,2538,PASS,global-search-to-details
+Tracking Details,Tab - Event,2.56,2561,PASS,global-search-to-details
+Tracking Details,Tab - Alerts,2.52,2522,PASS,global-search-to-details
+Tracking Details,Tab - Documents,2.53,2531,PASS,global-search-to-details
+Tracking Details,Tracking list → Shipment detail page,11.81,11807,PASS,tracking-list-tab-perf
+Tracking Details,Back to Home from Details,1.64,1638,PASS,global-search-to-details
+,,,,
+═══ GLOBAL SEARCH ═══,,,,
+Global Search,Exact search using key reference number (US10020996682),6.20,6198,PASS,global-search-to-details
+Global Search,Partial string search using key reference number (US100),25.45,25448,PASS,global-search-to-details
+Global Search,Global Search from Home Page (us100),7.56,7564,PASS,home-page-timing
+Global Search,Search from Tracking List (us100),17.23,17230,PASS,tracking-list-tab-perf
+,,,,
+═══ SHOW FILTERS (Home Page) ═══,,,,
+Show Filters,Application of saved filter in home page (PerformanceTesting),6.85,6853,PASS,filter-performance
+Show Filters,Show Filter sidebar open (Home Page),1.15,1154,PASS,filter-performance
+Show Filters,Settings icon → saved filters panel (Home Page),2.06,2055,PASS,filter-performance
+Show Filters,Post-Filter KPI - Not Started Shipments,6.82,6824,PASS,filter-performance
+Show Filters,Post-Filter KPI - Arrived Shipments,6.84,6837,PASS,filter-performance
+Show Filters,Post-Filter KPI - In Transit Shipments,6.85,6848,PASS,filter-performance
+Show Filters,Post-Filter Map Toggle (Destination),4.43,4425,PASS,filter-performance
+Show Filters,Post-Filter Transport Tab - Ocean,3.26,3264,PASS,filter-performance
+Show Filters,Post-Filter Transport Tab - Air,0.06,59,PASS,filter-performance
+Show Filters,Post-Filter Transport Tab - Rail,1.67,1672,PASS,filter-performance
+Show Filters,Post-Filter Transport Tab - Road,1.02,1021,PASS,filter-performance
+,,,,
+═══ SHOW FILTERS (Tracking List) ═══,,,,
+Show Filters,Application of saved filter in tracking list page (PeformanceTesting),10.60,10602,PASS,tracking-list-filter-performance
+Show Filters,Initial Tracking List Load (before filter),11.41,11409,PASS,tracking-list-filter-performance
+Show Filters,Show Filter sidebar open (Tracking List),1.21,1209,PASS,tracking-list-filter-performance
+Show Filters,Settings icon → saved filters panel (Tracking List),2.05,2049,PASS,tracking-list-filter-performance
+Show Filters,Post-Filter Tab - All shipment,9.16,9164,PASS,tracking-list-filter-performance
+Show Filters,Post-Filter Tab - Not started,8.85,8854,PASS,tracking-list-filter-performance
+Show Filters,Post-Filter Tab - In transit,8.10,8102,PASS,tracking-list-filter-performance
+Show Filters,Post-Filter Tab - Arrived,8.41,8410,PASS,tracking-list-filter-performance
+Show Filters,Post-Filter Tab - Inactive shipments,8.11,8109,PASS,tracking-list-filter-performance
+Show Filters,Post-Filter Tab - Document only,8.42,8422,PASS,tracking-list-filter-performance
+Show Filters,Post-Filter Tab - Live Track pending,8.65,8654,PASS,tracking-list-filter-performance
+,,,,
+═══ HOME ↔ TRACKING LIST ROUND-TRIP (with Filter) ═══,,,,
+Round-Trip,Home Page Load (initial),2.12,2117,PASS,home-tracking-list-filter-perf
+Round-Trip,Home → Tracking List,11.19,11194,PASS,home-tracking-list-filter-perf
+Round-Trip,Show Filters → sidebar open,1.20,1199,PASS,home-tracking-list-filter-perf
+Round-Trip,Settings → saved filters panel,2.07,2073,PASS,home-tracking-list-filter-perf
+Round-Trip,Applying saved filter (data loaded),10.20,10198,PASS,home-tracking-list-filter-perf
+Round-Trip,Tracking List → Home (filtered),7.73,7733,PASS,home-tracking-list-filter-perf
+Round-Trip,Home → Tracking List (return trip),10.88,10876,PASS,home-tracking-list-filter-perf
+Round-Trip,TOTAL ROUND-TRIP TIME,45.39,45390,PASS,home-tracking-list-filter-perf
+,,,,
+═══ SUMMARY BY FEATURE ═══,,,,
+Summary,Home Page - Dashboard Load,3.30,3299,,
+Summary,Tracking List - Table View (Avg First Visit),9.48,9487,,
+Summary,Tracking Details - Home to Details,2.34,2336,,
+Summary,Tracking Details - List to Details,11.81,11807,,
+Summary,Global Search - Exact (US10020996682),6.20,6198,,
+Summary,Global Search - Partial (US100),25.45,25448,,
+Summary,Filter Apply - Home Page,6.85,6853,,
+Summary,Filter Apply - Tracking List,10.60,10602,,
+Summary,Full Round-Trip (Home↔TrackingList+Filter),45.39,45390,,
+,,,,
+═══ TEST EXECUTION INFO ═══,,,,
+Info,Environment,stage.itt.bdpsmart.com,,,
+Info,Browser,Microsoft Edge (Chromium),,,
+Info,Test Date,2026-03-05,,,
+Info,Test 1 Duration (home-tracking-list-filter-perf),62.0s,61975,,
+Info,Test 2 Duration (global-search-to-details-perf),87.0s,86999,,
+Info,Test 3 Duration (tracking-list-filter-performance),116.5s,116468,,
+Info,Test 4 Duration (filter-performance),68.8s,68816,,
+Info,Test 5 Duration (home-page-timing),65.5s,65486,,
+Info,Test 6 Duration (tracking-list-tab-perf),187.7s,187658,,
+Info,Total Execution Time,~9.8 minutes,587402,,
+Info,All Tests Passed,6/6,,,

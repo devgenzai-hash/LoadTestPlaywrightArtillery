@@ -1,0 +1,13 @@
+Module,ONLY DOW Navigator (Sec),Only DOW ITT stage(Sec)
+Home Page (KPI + Map View + Widgets),7 sec only dow ,4 sec
+Tracking List (In-Transit),15 sec,3 sec
+Tracking List (All Shipments),12 sec,17 sec
+Tracking List (Non Started Shipment),5 sec not started,2.5
+Tracking List (Arrived Shipment),7 sec,9 sec
+Tracking Details (Home -> TD),4 -5 sec,6.8
+Tracking Details (TL->TD),4 sec data load 6 sec map render,7 sec till final render
+Global Search (Exact String Search),6 sec,6.3
+Global Search (Partial String Search),3sec,18.4 sec
+Show Filter (Applying filter in Home Page),5 sec ,5
+Clear Filter,5 sec,4.6 secs
+Event Manager,3 sec,6.2

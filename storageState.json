@@ -1,0 +1,163 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1417906548.1762776527",
+      "domain": ".bdpsmart.com",
+      "path": "/",
+      "expires": 1805980795.512926,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3A4907489f-5bee-45f4-a221-8d77f9c60f1b%3A80418fceff34553da120df38f326a3984cf9a058f61bc57616f45aa12f8346f0%3Acaef6ef4d6de2820125482903d7aad457e6b8fdc76c5af82d2c2e3fa7f51690e%3A46f15fb8eb608d0162f975474a8ad5470ac3de79c08eacb8ac046b0e2911aad9.C9J6adVBP5vdZ5CseHR9FQvYxeIRZDkyL%2FGszq8jAH0",
+      "domain": "testlogin.bdpsmart.com",
+      "path": "/",
+      "expires": 1802978394.599945,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3A4907489f-5bee-45f4-a221-8d77f9c60f1b%3A80418fceff34553da120df38f326a3984cf9a058f61bc57616f45aa12f8346f0%3Acaef6ef4d6de2820125482903d7aad457e6b8fdc76c5af82d2c2e3fa7f51690e%3A46f15fb8eb608d0162f975474a8ad5470ac3de79c08eacb8ac046b0e2911aad9.C9J6adVBP5vdZ5CseHR9FQvYxeIRZDkyL%2FGszq8jAH0",
+      "domain": "testlogin.bdpsmart.com",
+      "path": "/",
+      "expires": 1802978394.600318,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1448508568.1771420782",
+      "domain": ".bdpsmart.com",
+      "path": "/",
+      "expires": 1771507195,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".bdpsmart.com",
+      "path": "/",
+      "expires": 1771420841,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0-mf",
+      "value": "VTy_hgWY_05jjB8euMufsA.BwoCNTpFxjgyvf7zQoRp4QmDrgwliL_5Sfr4rOv7MMu-lws6jPGM7foazFXk2RKX22LUBg_8_3MCvVjxjpaLJ3sUOq9xtC7tCr2N_ysdLWig9Bw-sCGjMkp5J3eUuo_vGz9T8Vbhl6Vct2tff4hDHn6fJvP9oFaq4-LAAJRDWxQBB7jNkth2fVcnrM7PlqrplnpUsX5K0hXHkao8k27qTg.1769431532340.2592000000.fMnfcuTIkzhRXZQAtIGr5dn7M7-0zT-qt3XWV6whX6U",
+      "domain": "testlogin.bdpsmart.com",
+      "path": "/",
+      "expires": 1772025595.215511,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3AHTERB4yldjyphCb93VvPX5kOfrOAGhO3.ZmaNXlkJaPUzw3jKondsHOgf4W%2Fx6UhPZ1dzEAUU0So",
+      "domain": "testlogin.bdpsmart.com",
+      "path": "/",
+      "expires": 1771421695.215713,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0-mf_compat",
+      "value": "VTy_hgWY_05jjB8euMufsA.BwoCNTpFxjgyvf7zQoRp4QmDrgwliL_5Sfr4rOv7MMu-lws6jPGM7foazFXk2RKX22LUBg_8_3MCvVjxjpaLJ3sUOq9xtC7tCr2N_ysdLWig9Bw-sCGjMkp5J3eUuo_vGz9T8Vbhl6Vct2tff4hDHn6fJvP9oFaq4-LAAJRDWxQBB7jNkth2fVcnrM7PlqrplnpUsX5K0hXHkao8k27qTg.1769431532340.2592000000.fMnfcuTIkzhRXZQAtIGr5dn7M7-0zT-qt3XWV6whX6U",
+      "domain": "testlogin.bdpsmart.com",
+      "path": "/",
+      "expires": 1772025595.215813,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3AHTERB4yldjyphCb93VvPX5kOfrOAGhO3.ZmaNXlkJaPUzw3jKondsHOgf4W%2Fx6UhPZ1dzEAUU0So",
+      "domain": "testlogin.bdpsmart.com",
+      "path": "/",
+      "expires": 1771421695.215887,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_T61M16SLF5",
+      "value": "GS2.2.s1771420781$o165$g1$t1771420795$j46$l0$h0",
+      "domain": ".bdpsmart.com",
+      "path": "/",
+      "expires": 1805980795.574356,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_legacy_auth0.kxoJQClXxbEcvEYX6HVYEnERK4wwAeAc.is.authenticated",
+      "value": "true",
+      "domain": "test.itt.bdpsmart.com",
+      "path": "/",
+      "expires": 1771507195,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.kxoJQClXxbEcvEYX6HVYEnERK4wwAeAc.is.authenticated",
+      "value": "true",
+      "domain": "test.itt.bdpsmart.com",
+      "path": "/",
+      "expires": 1771507195,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://test.itt.bdpsmart.com",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlQwRHlEUHE4R0hHS0ZrRFltM1Q0OCJ9.eyJodHRwczovL2h1Yi5iZHBzbWFydC5jb20vZ3JvdXBzIjpbXSwiZ2l2ZW5fbmFtZSI6IlN1cmFqIiwiZmFtaWx5X25hbWUiOiJCZWhlcmEiLCJuaWNrbmFtZSI6InN1cmFqLmJlaGVyYUBiZHBpbnQuY29tIiwibmFtZSI6InN1cmFqLmJlaGVyYUBiZHBpbnQuY29tIiwicGljdHVyZSI6Imh0dHBzOi8vcy5ncmF2YXRhci5jb20vYXZhdGFyL2YwNmY4NjY0OTA1YzExYWRkMjhiZDFlMmQ2YjZiZmUyP3M9NDgwJnI9cGcmZD1odHRwcyUzQSUyRiUyRmNkbi5hdXRoMC5jb20lMkZhdmF0YXJzJTJGc3UucG5nIiwidXBkYXRlZF9hdCI6IjIwMjYtMDItMThUMTM6MTk6NTQuOTcwWiIsImVtYWlsIjoic3VyYWouYmVoZXJhQGJkcGludC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6Ly90ZXN0bG9naW4uYmRwc21hcnQuY29tLyIsImF1ZCI6Imt4b0pRQ2xYeGJFY3ZFWVg2SFZZRW5FUks0d3dBZUFjIiwic3ViIjoiYWR8b2xkYXAtc21hcnRodWJ0ZXN0fHN1cmFqLmJlaGVyYUBiZHBpbnQuY29tIiwiaWF0IjoxNzcxNDIwNzk2LCJleHAiOjE3NzE0NTY3OTYsInNpZCI6Il96NW5FSzUtQ1pRMXJSZGFWaTFRdEVLMmxsZHFRRTNkIiwibm9uY2UiOiJZMlZ1Y1dwcVpXRllTVk53WWpBeWNXWlRZM0JvT0MxSGNsWkhhV05ZUWpoc1pERTFUVWxmUjBWUU1nPT0ifQ.1QPjjhD_WND0DPPfrWzUjUncFeux6CVPXAvy8Tp4v-JeH6IGR8eVKebRxQGhrxYIr6wC3Uxr6KKSuAzDeKwPIs-Xm9ScMXJM9JU8-hDXF5MQs42Q7yhQ5xZ4IOjH2HYgMjQhUFuCEgH2pDKPc9uS1bW23gPB30klTMPY8w-7LJUZksge14Sbt8OQLzSil1n0Sz0r_NPRZeSmJhaf0CN8pd6szn5LtH6ORALVYBCLuTFBdroY1s2WH6Pji14mXXfdF20HZ9Ss2krPZS0xRy7SIWmR9UQYMXeTEcg5DXqRfjk2fRmQnPIBSFedVjreHxXmqJlFLwhwCGhiGDtaMwC8_A\""
+        },
+        {
+          "name": "userData",
+          "value": "{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"firstNm\":\"Suraj\",\"lastNm\":\"Behera\",\"tmZn\":\"(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi\",\"createdDate\":\"2025-03-17T21:15:11.000+00:00\",\"createdBy\":\"system\",\"updatedDate\":\"2025-03-17T21:15:11.000+00:00\",\"updatedBy\":\"system\",\"activeYn\":\"Y\",\"legalHoldYn\":\"N\",\"ssoYn\":\"N\",\"blockedYn\":\"N\",\"address\":{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"companyName\":\"Cozentus\",\"address1\":\"5th Floor\",\"address2\":\"SRB Tower, Infocity, Patia\",\"city\":\"Bhubaneswar\",\"state\":\"Odisha\",\"zip\":\"751024\",\"country\":\"IN\",\"phone\":\"+91-8093479088\",\"bdpContact\":\"suraj.behera@bdpint.com\"},\"userApps\":[{\"id\":{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"appCd\":\"RISKMONITOR\"},\"appCd\":\"RISKMONITOR\"},{\"id\":{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"appCd\":\"DETENTION_DEMURRAGE\"},\"appCd\":\"DETENTION_DEMURRAGE\"},{\"id\":{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"appCd\":\"NAVIGATOR\"},\"appCd\":\"NAVIGATOR\"},{\"id\":{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"appCd\":\"NAVIGATOR_STAGE\"},\"appCd\":\"NAVIGATOR_STAGE\"},{\"id\":{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"appCd\":\"INTEGRATED_TRACK_TRACE\"},\"appCd\":\"INTEGRATED_TRACK_TRACE\"},{\"id\":{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"appCd\":\"ADMIN\"},\"appCd\":\"ADMIN\"}],\"userRole\":[{\"id\":{\"usrEmailId\":\"suraj.behera@bdpint.com\",\"roleName\":\"EMPLOYEE\",\"role\":\"EMPLOYEE\"}}],\"userAppsList\":[\"RISKMONITOR\",\"DETENTION_DEMURRAGE\",\"NAVIGATOR\",\"NAVIGATOR_STAGE\",\"INTEGRATED_TRACK_TRACE\",\"ADMIN\"],\"userRoleList\":[\"EMPLOYEE\"]}"
+        },
+        {
+          "name": "mmt.keyReference.preferences",
+          "value": "{\"OCEAN\":\"SHIPMENT_NUMBER\",\"AIR\":\"SHIPMENT_NUMBER\",\"RAIL_ROAD\":\"SHIPMENT_NUMBER\"}"
+        },
+        {
+          "name": "userApplicationDetails",
+          "value": "{\"userId\":94,\"userEmail\":\"suraj.behera@bdpint.com\",\"roleId\":1,\"roleName\":\"SUPER ADMIN\",\"hasPremiumSubscription\":true,\"landingPageId\":null,\"landingPageKey\":null,\"landingPageName\":null,\"skinId\":7,\"skinKey\":\"PSA_BDP_DARK\",\"skinName\":\"PSA BDP Dark\",\"features\":[{\"featureId\":18,\"featureName\":\"Homepage\",\"featureKey\":\"HOMEPAGE\",\"privileges\":[]},{\"featureId\":19,\"featureName\":\"Tracking List\",\"featureKey\":\"TRACKING_LIST_CATEGORY\",\"privileges\":[]},{\"featureId\":20,\"featureName\":\"Tracking Details\",\"featureKey\":\"TRACKING_DETAILS\",\"privileges\":[]},{\"featureId\":21,\"featureName\":\"Favorites\",\"featureKey\":\"FAVORITES_CATEGORY\",\"privileges\":[]},{\"featureId\":22,\"featureName\":\"Alerts\",\"featureKey\":\"ALERTS\",\"privileges\":[]},{\"featureId\":23,\"featureName\":\"Data Management\",\"featureKey\":\"DATA_MANAGEMENT\",\"privileges\":[]},{\"featureId\":24,\"featureName\":\"Master Data Management\",\"featureKey\":\"MASTER_DATA_MANAGEMENT\",\"privileges\":[]},{\"featureId\":25,\"featureName\":\"3PL Management\",\"featureKey\":\"3PL_MANAGEMENT\",\"privileges\":[]},{\"featureId\":26,\"featureName\":\"Analytics\",\"featureKey\":\"ANALYTICS_CATEGORY\",\"privileges\":[]},{\"featureId\":27,\"featureName\":\"Shipment Repush\",\"featureKey\":\"SHIPMENT_REPUSH_CATEGORY\",\"privileges\":[]},{\"featureId\":28,\"featureName\":\"User Management\",\"featureKey\":\"USER_MANAGEMENT_CATEGORY\",\"privileges\":[]},{\"featureId\":29,\"featureName\":\"Report Builder\",\"featureKey\":\"REPORT_BUILDER\",\"privileges\":[]},{\"featureId\":64,\"featureName\":\"Shipment Repush\",\"featureKey\":\"SHIPMENT_REPUSH\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":64,\"mapCatFeatPrivId\":6}]},{\"featureId\":65,\"featureName\":\"User Management\",\"featureKey\":\"USER_MANAGEMENT\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":65,\"mapCatFeatPrivId\":33},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":65,\"mapCatFeatPrivId\":5}]},{\"featureId\":66,\"featureName\":\"Custom Report Creation\",\"featureKey\":\"ALLOWING_CREATION_OF_CUSTOM_REPORTS\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":66,\"mapCatFeatPrivId\":32},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":66,\"mapCatFeatPrivId\":4}]},{\"featureId\":67,\"featureName\":\"Report Email Distribution\",\"featureKey\":\"EMAILING_THE_REPORTS\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":67,\"mapCatFeatPrivId\":31},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":67,\"mapCatFeatPrivId\":3}]},{\"featureId\":68,\"featureName\":\"Report Download\",\"featureKey\":\"DOWNLOAD_OF_THE_REPORTS\",\"privileges\":[{\"privilegeId\":3,\"privilegeName\":\"Download\",\"privilegeKey\":\"DOWNLOAD\",\"featureId\":68,\"mapCatFeatPrivId\":57}]},{\"featureId\":69,\"featureName\":\"Report Scheduling\",\"featureKey\":\"SCHEDULING_THE_REPORTS\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":69,\"mapCatFeatPrivId\":30},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":69,\"mapCatFeatPrivId\":2}]},{\"featureId\":70,\"featureName\":\"Report Template Management\",\"featureKey\":\"SAVING_REPORT_TEMPLATES_AT_MOST_5\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":70,\"mapCatFeatPrivId\":1},{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":70,\"mapCatFeatPrivId\":29}]},{\"featureId\":30,\"featureName\":\"Map View+KPI+Widgets\",\"featureKey\":\"MAP_VIEWKPIWIDGETS\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":30,\"mapCatFeatPrivId\":28}]},{\"featureId\":31,\"featureName\":\"Tracking List\",\"featureKey\":\"TRACKING_LIST\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":31,\"mapCatFeatPrivId\":27}]},{\"featureId\":32,\"featureName\":\"Map View\",\"featureKey\":\"MAP_VIEW\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":32,\"mapCatFeatPrivId\":26}]},{\"featureId\":33,\"featureName\":\"Logistics + Events Timeline/Tabular View\",\"featureKey\":\"LOGISTICS__EVENTS_TIMELINE_TABULAR_VIEW\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":33,\"mapCatFeatPrivId\":25}]},{\"featureId\":34,\"featureName\":\"Information Milestones\",\"featureKey\":\"INFORMATION_MILESTONES\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":34,\"mapCatFeatPrivId\":24}]},{\"featureId\":35,\"featureName\":\"E-URL\",\"featureKey\":\"E-URL\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":35,\"mapCatFeatPrivId\":23}]},{\"featureId\":36,\"featureName\":\"Favorites\",\"featureKey\":\"FAVORITES\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":36,\"mapCatFeatPrivId\":22}]},{\"featureId\":37,\"featureName\":\"Bulk Alert Subscription\",\"featureKey\":\"BULK_ALERT_SUBSCRIPTION\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":37,\"mapCatFeatPrivId\":56}]},{\"featureId\":38,\"featureName\":\"User Specific Subscription & Configuration\",\"featureKey\":\"USER_SPECIFIC_SUBSCRIPTION_&_CONFIGURATION\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":38,\"mapCatFeatPrivId\":55}]},{\"featureId\":39,\"featureName\":\"Notifications (In-app/Email)\",\"featureKey\":\"NOTIFICATIONS_IN-APP_EMAIL\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":39,\"mapCatFeatPrivId\":21}]},{\"featureId\":40,\"featureName\":\"Exception Manager\",\"featureKey\":\"EXCEPTION_MANAGER\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":40,\"mapCatFeatPrivId\":54}]},{\"featureId\":41,\"featureName\":\"Event Manager\",\"featureKey\":\"EVENT_MANAGER\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":41,\"mapCatFeatPrivId\":53}]},{\"featureId\":42,\"featureName\":\"Shipment Reprocessing\",\"featureKey\":\"SHIPMENT_REPROCESSING\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":42,\"mapCatFeatPrivId\":52}]},{\"featureId\":43,\"featureName\":\"Geofence Manager\",\"featureKey\":\"GEOFENCE_MANAGER\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":43,\"mapCatFeatPrivId\":51}]},{\"featureId\":44,\"featureName\":\"BDP Rep Email Manager\",\"featureKey\":\"BDP_REP_EMAIL_MANAGER\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":44,\"mapCatFeatPrivId\":50}]},{\"featureId\":45,\"featureName\":\"Carrier Management\",\"featureKey\":\"CARRIER_MANAGEMENT\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":45,\"mapCatFeatPrivId\":49},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":45,\"mapCatFeatPrivId\":20}]},{\"featureId\":46,\"featureName\":\"Role Management\",\"featureKey\":\"ROLE_MANAGEMENT\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":46,\"mapCatFeatPrivId\":48},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":46,\"mapCatFeatPrivId\":19}]},{\"featureId\":47,\"featureName\":\"Subscription Management\",\"featureKey\":\"SUBSCRIPTION_MANAGEMENT\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":47,\"mapCatFeatPrivId\":47},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":47,\"mapCatFeatPrivId\":18}]},{\"featureId\":48,\"featureName\":\"PETA/PETD Management\",\"featureKey\":\"PETA_PETD_MANAGEMENT\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":48,\"mapCatFeatPrivId\":46},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":48,\"mapCatFeatPrivId\":17}]},{\"featureId\":49,\"featureName\":\"Hierarchy Management (Customer)\",\"featureKey\":\"HIERARCHY_MANAGEMENT_CUSTOMER\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":49,\"mapCatFeatPrivId\":45},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":49,\"mapCatFeatPrivId\":16}]},{\"featureId\":50,\"featureName\":\"Hierarchy Management (Events)\",\"featureKey\":\"HIERARCHY_MANAGEMENT_EVENTS\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":50,\"mapCatFeatPrivId\":44},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":50,\"mapCatFeatPrivId\":15}]},{\"featureId\":51,\"featureName\":\"Masters & Equivalencies Tables\",\"featureKey\":\"MASTERS_&_EQUIVALENCIES_TABLES_PORTS_CARRIERS_LOCATIONS_ETC.\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":51,\"mapCatFeatPrivId\":43},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":51,\"mapCatFeatPrivId\":14}]},{\"featureId\":244,\"featureName\":\"Exception Configurator\",\"featureKey\":\"EXCEPTION_CONFIGURATOR\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":244,\"mapCatFeatPrivId\":464}]},{\"featureId\":52,\"featureName\":\"Email Template\",\"featureKey\":\"EMAIL_TEMPLATE\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":52,\"mapCatFeatPrivId\":42},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":52,\"mapCatFeatPrivId\":13}]},{\"featureId\":53,\"featureName\":\"BRE Config\",\"featureKey\":\"BRE_CONFIG\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":53,\"mapCatFeatPrivId\":41},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":53,\"mapCatFeatPrivId\":12}]},{\"featureId\":54,\"featureName\":\"Release Notes\",\"featureKey\":\"RELEASE_NOTES\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":54,\"mapCatFeatPrivId\":40},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":54,\"mapCatFeatPrivId\":11}]},{\"featureId\":55,\"featureName\":\"User Manual\",\"featureKey\":\"USER_MANUAL\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":55,\"mapCatFeatPrivId\":39},{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":55,\"mapCatFeatPrivId\":10}]},{\"featureId\":56,\"featureName\":\"EULA Managers\",\"featureKey\":\"EULA_MANAGERS\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":56,\"mapCatFeatPrivId\":9}]},{\"featureId\":57,\"featureName\":\"Audit Logs\",\"featureKey\":\"AUDIT_LOGS\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":57,\"mapCatFeatPrivId\":8}]},{\"featureId\":58,\"featureName\":\"3PL Upload Screen & CSV Interface\",\"featureKey\":\"3PL_UPLOAD_SCREEN_&_CSV_INTERFACE\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":58,\"mapCatFeatPrivId\":38}]},{\"featureId\":59,\"featureName\":\"3PL Exception Manager\",\"featureKey\":\"3PL_EXCEPTION_MANAGER\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":59,\"mapCatFeatPrivId\":37}]},{\"featureId\":60,\"featureName\":\"3PL Event Manager\",\"featureKey\":\"3PL_EVENT_MANAGER\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":60,\"mapCatFeatPrivId\":36}]},{\"featureId\":61,\"featureName\":\"3PL Shipment Reprocessing\",\"featureKey\":\"3PL_SHIPMENT_REPROCESSING\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":61,\"mapCatFeatPrivId\":35}]},{\"featureId\":62,\"featureName\":\"3PL Exception Configuration\",\"featureKey\":\"3PL_EXCEPTION_CONFIGURATION\",\"privileges\":[{\"privilegeId\":2,\"privilegeName\":\"Edit\",\"privilegeKey\":\"EDIT\",\"featureId\":62,\"mapCatFeatPrivId\":34}]},{\"featureId\":63,\"featureName\":\"Analytics\",\"featureKey\":\"ANALYTICS\",\"privileges\":[{\"privilegeId\":1,\"privilegeName\":\"View\",\"privilegeKey\":\"VIEW\",\"featureId\":63,\"mapCatFeatPrivId\":7}]}]}"
+        },
+        {
+          "name": "mapbox.eventData.uuid:bWFoZW5kcmE5MzI5",
+          "value": "null"
+        },
+        {
+          "name": "email",
+          "value": "\"suraj.behera@bdpint.com\""
+        },
+        {
+          "name": "mapbox.eventData:bWFoZW5kcmE5MzI5",
+          "value": "{\"lastSuccess\":1771420798334,\"tokenU\":\"mahendra9329\"}"
+        },
+        {
+          "name": "signinUser",
+          "value": "{\"https://hub.bdpsmart.com/groups\":[],\"given_name\":\"Suraj\",\"family_name\":\"Behera\",\"nickname\":\"suraj.behera@bdpint.com\",\"name\":\"suraj.behera@bdpint.com\",\"picture\":\"https://s.gravatar.com/avatar/f06f8664905c11add28bd1e2d6b6bfe2?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fsu.png\",\"updated_at\":\"2026-02-18T13:19:54.970Z\",\"email\":\"suraj.behera@bdpint.com\",\"email_verified\":true,\"sub\":\"ad|oldap-smarthubtest|suraj.behera@bdpint.com\"}"
+        }
+      ]
+    }
+  ]
+}

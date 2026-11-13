@@ -1,0 +1,232 @@
+{
+  "testName": "Tracking List Filter Performance — Saved Filter \"PeformanceTesting\"",
+  "timestamp": "2026-03-11T10:19:48.338Z",
+  "durationMs": 118919,
+  "browser": "chromium",
+  "loginToPageMs": 17583,
+  "initialPageLoadMs": 2644,
+  "initialPageLoadApiCalls": [
+    {
+      "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/retrieve-column-setting",
+      "method": "GET",
+      "status": 200,
+      "durationMs": 292,
+      "resourceType": "xhr",
+      "timestamp": 1773224284643
+    }
+  ],
+  "initialRowCount": 11,
+  "initialPaginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+  "filterApply": {
+    "filterName": "PeformanceTesting",
+    "showFilterClickMs": 1213,
+    "settingsIconClickMs": 2044,
+    "filterApplyTimeMs": 11445,
+    "rowCountAfterFilter": 10,
+    "paginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateUS10020975323OCEAN On Time 12-17-2025 15:5401-05-2026 00:00-----03-23-2026 18:00-THE DOW CHEMIC ...--01-04-2026 14:2501-02-2026 00:0003-23-2026 18:00US10020956817OCEAN On Time 12-12-2025 11:1001-06-2026 13:36-----03-22-2026 16:00-THE DOW CHEMIC ...--01-06-2026 11:0412-31-2025 00:0003-22-2026 18:30US10020955595OCEAN On Time -12-16-2025 19:12-----03-19-2026 08:00-THE DOW CHEMIC ...--12-16-2025 16:0712-11-2025 00:0003-16-2026 15:00US10020977834OCEAN On Time -01-24-2026 15:07-----03-15-2026 06:00-THE DOW CHEMIC ...--01-23-2026 10:4701-19-2026 00:0003-13-2026 00:00US10020965076OCEAN On Time 12-29-2025 08:2001-11-2026 23:33-----03-07-2026 14:00-THE DOW CHEMIC ...--01-11-2026 23:3301-07-2026 00:0003-07-2026 14:00US10020940809OCEAN On Time 12-22-2025 00:0001-11-2026 00:00-----03-07-2026 00:00-THE DOW CHEMIC ...--01-10-2026 00:0012-26-2025 00:0003-07-2026 00:00US10020940806OCEAN On Time 12-22-2025 00:0001-11-2026 00:00-----03-07-2026 00:00-THE DOW CHEMIC ...--01-10-2026 00:0012-26-2025 00:0003-07-2026 00:00US10020956540OCEAN On Time 12-16-2025 15:2601-04-2026 00:00-----03-05-2026 16:30-THE DOW CHEMIC ...--01-04-2026 03:0312-26-2025 00:0003-05-2026 16:30US10020977040OCEAN On Time -01-10-2026 00:00-----03-05-2026 00:00-THE DOW CHEMIC ...--01-09-2026 00:0001-07-2026 00:0003-05-2026 00:00US10020977041OCEAN On Time -01-10-2026 00:00-----03-05-2026 00:00-THE DOW CHEMIC ...--01-09-2026 00:0001-07-2026 00:0003-05-2026 00:00Showing 1 to 10 of 505 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+    "apiCalls": [
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/show-filter/countries",
+        "method": "POST",
+        "status": 200,
+        "durationMs": 322,
+        "resourceType": "xhr",
+        "timestamp": 1773224300544
+      },
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/show-filter/ports",
+        "method": "POST",
+        "status": 200,
+        "durationMs": 399,
+        "resourceType": "xhr",
+        "timestamp": 1773224300545
+      },
+      {
+        "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+        "method": "POST",
+        "status": 200,
+        "durationMs": 8446,
+        "resourceType": "xhr",
+        "timestamp": 1773224300543
+      }
+    ],
+    "slowestApiMs": 8446,
+    "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list"
+  },
+  "tabResults": [
+    {
+      "tabName": "All shipment",
+      "switchTimeMs": 166,
+      "timeToFirstRowMs": 8714,
+      "networkIdleTimeMs": 10231,
+      "rowCount": 1,
+      "paginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 8331,
+          "resourceType": "xhr",
+          "timestamp": 1773224312105
+        }
+      ],
+      "slowestApiMs": 8331,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Not started",
+      "switchTimeMs": 192,
+      "timeToFirstRowMs": 9540,
+      "networkIdleTimeMs": 11046,
+      "rowCount": 10,
+      "paginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateBNST1000014065OCEAN On Time -------03-31-2026 00:0003-25-2026 00:00BK_3M----03-31-2026 00:00BNST1000014067OCEAN On Time -------03-30-2026 00:0003-25-2026 00:00BK_3M----03-30-2026 00:001147501542OCEAN On Time -------05-06-2026 00:0003-24-2026 00:00THE DOW CHEMIC ...---03-20-2026 00:0005-06-2026 00:001147501545OCEAN On Time -------05-06-2026 00:0003-24-2026 00:00THE DOW CHEMIC ...---03-20-2026 00:0005-06-2026 00:001147501546OCEAN On Time -------05-10-2026 00:0003-16-2026 00:00THE DOW CHEMIC ...---03-14-2026 00:0005-10-2026 00:001147501549OCEAN On Time -------05-10-2026 00:0003-16-2026 00:00THE DOW CHEMIC ...---03-14-2026 00:0005-10-2026 00:001147500646OCEAN On Time -------04-29-2026 00:0003-15-2026 00:00THE DOW CHEMIC ...---03-13-2026 00:0004-29-2026 00:00US10020995065OCEAN On Time -------04-17-2026 00:0003-10-2026 00:00THE DOW CHEMIC ...---02-20-2026 00:0004-17-2026 00:00US10020995062OCEAN On Time -------04-17-2026 00:0003-10-2026 00:00THE DOW CHEMIC ...---02-20-2026 00:0004-17-2026 00:00US10020995063OCEAN On Time -------04-17-2026 00:0003-10-2026 00:00THE DOW CHEMIC ...---02-20-2026 00:0004-17-2026 00:00Showing 1 to 10 of 641 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8398,
+          "resourceType": "xhr",
+          "timestamp": 1773224322456
+        }
+      ],
+      "slowestApiMs": 8398,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/NOT_STARTED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "In transit",
+      "switchTimeMs": 1216,
+      "timeToFirstRowMs": 10526,
+      "networkIdleTimeMs": 12038,
+      "rowCount": 10,
+      "paginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateUS10020975323OCEAN On Time 12-17-2025 15:5401-05-2026 00:00-----03-23-2026 18:00-THE DOW CHEMIC ...--01-04-2026 14:2501-02-2026 00:0003-23-2026 18:00US10020956817OCEAN On Time 12-12-2025 11:1001-06-2026 13:36-----03-22-2026 16:00-THE DOW CHEMIC ...--01-06-2026 11:0412-31-2025 00:0003-22-2026 18:30US10020955595OCEAN On Time -12-16-2025 19:12-----03-19-2026 08:00-THE DOW CHEMIC ...--12-16-2025 16:0712-11-2025 00:0003-16-2026 15:00US10020977834OCEAN On Time -01-24-2026 15:07-----03-15-2026 06:00-THE DOW CHEMIC ...--01-23-2026 10:4701-19-2026 00:0003-13-2026 00:00US10020965076OCEAN On Time 12-29-2025 08:2001-11-2026 23:33-----03-07-2026 14:00-THE DOW CHEMIC ...--01-11-2026 23:3301-07-2026 00:0003-07-2026 14:00US10020940809OCEAN On Time 12-22-2025 00:0001-11-2026 00:00-----03-07-2026 00:00-THE DOW CHEMIC ...--01-10-2026 00:0012-26-2025 00:0003-07-2026 00:00US10020940806OCEAN On Time 12-22-2025 00:0001-11-2026 00:00-----03-07-2026 00:00-THE DOW CHEMIC ...--01-10-2026 00:0012-26-2025 00:0003-07-2026 00:00US10020956540OCEAN On Time 12-16-2025 15:2601-04-2026 00:00-----03-05-2026 16:30-THE DOW CHEMIC ...--01-04-2026 03:0312-26-2025 00:0003-05-2026 16:30US10020977040OCEAN On Time -01-10-2026 00:00-----03-05-2026 00:00-THE DOW CHEMIC ...--01-09-2026 00:0001-07-2026 00:0003-05-2026 00:00US10020977041OCEAN On Time -01-10-2026 00:00-----03-05-2026 00:00-THE DOW CHEMIC ...--01-09-2026 00:0001-07-2026 00:0003-05-2026 00:00Showing 1 to 10 of 505 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 9315,
+          "resourceType": "xhr",
+          "timestamp": 1773224333874
+        }
+      ],
+      "slowestApiMs": 9315,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/IN_TRANSIT/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Arrived",
+      "switchTimeMs": 187,
+      "timeToFirstRowMs": 9415,
+      "networkIdleTimeMs": 10929,
+      "rowCount": 10,
+      "paginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateUS10020990485OCEAN On Time -01-24-2026 15:0703-09-2026 20:26------THE DOW CHEMIC ...--01-24-2026 03:5801-16-2026 00:0003-09-2026 00:00US10020945743OCEAN On Time 10-20-2025 00:0001-24-2026 10:2403-06-2026 17:20------THE DOW CHEMIC ...--01-23-2026 02:0601-21-2026 00:0003-06-2026 00:00US10020983905OCEAN On Time 12-30-2025 14:0401-20-2026 17:1903-06-2026 02:19------THE DOW CHEMIC ...--01-18-2026 09:4201-13-2026 00:0003-04-2026 18:00US10020965261OCEAN On Time 12-17-2025 00:0001-05-2026 07:1703-04-2026 18:20------THE DOW CHEMIC ...--01-03-2026 22:0112-26-2025 00:0003-04-2026 14:00US10020956949OCEAN On Time -12-23-2025 10:0303-03-2026 19:10------THE DOW CHEMIC ...--12-23-2025 00:0012-18-2025 00:0003-05-2026 12:00US10020952088OCEAN On Time -01-13-2026 21:3103-01-2026 07:56---03-06-2026 14:32--THE DOW CHEMIC ...--01-12-2026 05:1701-08-2026 00:0002-20-2026 23:30US10020935263OCEAN On Time 12-09-2025 12:1112-24-2025 13:5302-26-2026 20:46---03-03-2026 03:14--THE DOW CHEMIC ...--12-24-2025 10:3512-17-2025 00:0002-22-2026 13:00US10020954755OCEAN On Time -01-13-2026 21:3102-24-2026 21:59---02-27-2026 10:19--THE DOW CHEMIC ...--01-12-2026 04:3601-08-2026 00:0002-23-2026 00:00US10020919065OCEAN On Time 12-03-2025 00:0012-29-2025 14:4302-23-2026 08:35---02-27-2026 09:59--THE DOW CHEMIC ...--12-28-2025 11:0812-15-2025 00:0002-21-2026 23:00US10020932152OCEAN On Time 11-11-2025 08:3201-06-2026 13:2902-19-2026 13:43---02-28-2026 17:42--THE DOW CHEMIC ...--01-06-2026 11:1812-31-2025 00:0002-09-2026 08:29Showing 1 to 10 of 3786 entries 1  2  3  4  5 10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 200,
+          "durationMs": 8662,
+          "resourceType": "xhr",
+          "timestamp": 1773224345748
+        }
+      ],
+      "slowestApiMs": 8662,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/ARRIVED/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Inactive shipments",
+      "switchTimeMs": 234,
+      "timeToFirstRowMs": 8951,
+      "networkIdleTimeMs": 10462,
+      "rowCount": 1,
+      "paginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 8395,
+          "resourceType": "xhr",
+          "timestamp": 1773224356696
+        }
+      ],
+      "slowestApiMs": 8395,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/INACTIVE/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Document only",
+      "switchTimeMs": 114,
+      "timeToFirstRowMs": 9026,
+      "networkIdleTimeMs": 10532,
+      "rowCount": 1,
+      "paginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 8183,
+          "resourceType": "xhr",
+          "timestamp": 1773224367319
+        }
+      ],
+      "slowestApiMs": 8183,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/DOC_ONLY/fetch-shipment-tracking-list"
+    },
+    {
+      "tabName": "Live Track pending",
+      "switchTimeMs": 408,
+      "timeToFirstRowMs": 8949,
+      "networkIdleTimeMs": 10461,
+      "rowCount": 1,
+      "paginationInfo": "6 companies selected 3 MRS Manas Ranjan...PSA BDP Super UserHomeTracking ListFavoritesAlert3PLUploadException ManagerEvent ManagerShipment ReprocessingData ManagementException ManagerEvent ManagerGeofence ManagerShipment ReprocessingBDP Report Email ManagerUser ManagementTracking ListShow filters All Shipments  Not Started  In Transit  Arrived  Document Only  Inactive Shipments  Live Track Pending The Tracking List shows shipments from your saved default companies within a rolling 12-month window, based on the tab-specific date logicSave Column PreferenceColumn SettingsDownloadActionShipment NumberMOTLogistics StatusEmpty Container Pickup DatePort of Departure Act. DatePort of Arrival Act. DateDestination Delivery Act. DatePlace of Delivery Act. DatePlace of Receipt Act. DateContainer Empty Delivery DatePort of Arrival Est. DatePort of Departure Est. DateCompany NameDeparted Place of Receipt Act. DateDestination Delivery Est. DateFeeder Vessel Actual Load DateLatest Delivery Cutoff DateOriginal Port of Arrival Est. DateShowing 0 to 0 of 0 entries10 End User License Agreement (EULA) © 2026 PSA International Pte. Ltd. | © 2026 BDP International Inc. | All rights reserved",
+      "apiCalls": [
+        {
+          "url": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list",
+          "method": "POST",
+          "status": 204,
+          "durationMs": 8468,
+          "resourceType": "xhr",
+          "timestamp": 1773224377893
+        }
+      ],
+      "slowestApiMs": 8468,
+      "slowestApiUrl": "https://stage.itt.bdpsmart.com/api/v1/tracking-list/LIVE_TRACK_PENDING/fetch-shipment-tracking-list"
+    }
+  ],
+  "apiSummary": {
+    "totalCalls": 11,
+    "failedCalls": 0,
+    "avgResponseMs": 6292,
+    "p50Ms": 8395,
+    "p90Ms": 8662,
+    "p99Ms": 9315,
+    "maxMs": 9315,
+    "minMs": 292,
+    "slowCalls": 8
+  },
+  "memorySnapshots": [
+    {
+      "stage": "After Initial Tracking List Load",
+      "usedMB": 46.1,
+      "totalMB": 74.85
+    },
+    {
+      "stage": "After Filter Applied",
+      "usedMB": 36.1,
+      "totalMB": 46.6
+    },
+    {
+      "stage": "Final (After All Tabs)",
+      "usedMB": 32.32,
+      "totalMB": 37.28
+    }
+  ],
+  "consoleErrors": [
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)",
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)",
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)",
+    "❌ API call failed: TypeError: Cannot read properties of null (reading 'data')\n    at https://stage.itt.bdpsmart.com/3958.f288a51052628f61.js:1:536\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976722\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:976715\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)\n    at https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:896340\n    at o._next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:605062)\n    at o.next (https://stage.itt.bdpsmart.com/vendor.d039499f7c846bd2.js:1:1106377)"
+  ]
+}
